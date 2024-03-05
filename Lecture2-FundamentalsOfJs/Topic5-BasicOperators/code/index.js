@@ -74,7 +74,7 @@ console.log(true&&1);
 // IMP=> 2 = here we can see that.why we are getting the (1) as result not the (true):In the upper (AND) Operator condition:
 // because the (&&) AND-Operator return us the (last) truthy-value as a result from its truthy values:
 console.log(5&&1);
-// IMP=> 3 = and In between the two-falsy values of (AND) operator:It will return us (first-falsy) value:
+// IMP=> 3 = and In between the falsy values of (AND) operator:It will return us (first-falsy) value:
 
 console.log(0&&"");
 // second we see about (OR-operator)=(||):
@@ -82,3 +82,6 @@ console.log(0&&"");
 console.log(5||1);
 // IMP=> 2 = and It will return us the (last-falsy) value as in (result):from its (falsy-values):
 console.log(0||"");
+// third we see about (NOT-operator)=(!):
+console.log(!0);
+console.log(!1);
