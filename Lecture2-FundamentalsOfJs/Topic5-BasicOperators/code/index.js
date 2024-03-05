@@ -67,4 +67,18 @@ console.log(5!=='5');
 
 // => 4 = Logical-operator:
 // here we have some Logical-operators:(&&,||,!)
+// first we see about (AND-operator)=(&&):
+console.log(true&&true);
+// IMP=> 1 = here we also have the result as (1) it means that this is (true):because (1) considered as (truthy) values in js:
+console.log(true&&1);
+// IMP=> 2 = here we can see that.why we are getting the (1) as result not the (true):In the upper (AND) Operator condition:
+// because the (&&) AND-Operator return us the (last) truthy-value as a result from its truthy values:
+console.log(5&&1);
+// IMP=> 3 = and In between the two-falsy values of (AND) operator:It will return us (first-falsy) value:
 
+console.log(0&&"");
+// second we see about (OR-operator)=(||):
+// IMP=> 1 = It will return us the (first-truthy) value as in (result):from its (truthy-values):
+console.log(5||1);
+// IMP=> 2 = and It will return us the (last-falsy) value as in (result):from its (falsy-values):
+console.log(0||"");
