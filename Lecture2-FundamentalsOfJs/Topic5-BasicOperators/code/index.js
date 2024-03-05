@@ -78,9 +78,9 @@ console.log(5&&1);
 
 console.log(0&&"");
 // second we see about (OR-operator)=(||):
-// IMP=> 1 = It will return us the (first-truthy) value as in (result):from its (truthy-values):
+// IMP=> 1 = It will return us the (first-truthy) value as in (result):from its all (truthy-values):
 console.log(5||1);
-// IMP=> 2 = and It will return us the (last-falsy) value as in (result):from its (falsy-values):
+// IMP=> 2 = and It will return us the (last-falsy) value as in (result):from its all (falsy-values):
 console.log(0||"");
 // third we see about (NOT-operator)=(!):
 console.log(!0);
