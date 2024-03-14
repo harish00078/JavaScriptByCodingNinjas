@@ -41,7 +41,7 @@ console.log("*** number conversion***");
 // => second = convert any data-type to (number):
 // IMP = we have four-ways to do this of type conversion:
 // 1 = Number():
-// first we see the workig of Number() method:
+// first we see the working of Number() method:
 // -> convert number-string to number :
 let Num = "25";
 console.log(Number(Num));
@@ -50,8 +50,21 @@ console.log(Number(Num));
 // IMP = then in result we will have the (NaN):NaN is basically used to repersents the (Not a number)  value in js:
 console.log(Number("value"));
 // -> convert boolean-value to number:
-// IMP = here in result we will have the (1):because in bitwise system (1) respersents the (true) value:
+// IMP = here in result we will have the (1):because in bitwise system (1) respersents the (true) value and (0) repersents the (false) value:
 console.log(Number(true));
-// 2 = Unary (+) plus-operator ---(works on varaibles):
-// 3 = parseFloat():
-// 4 = parseInt():
+// 2 = Unary (+) plus or addition-operator ---(works on varaibles):
+// second we see the working of unary (+) plus or addition-operatormethod:
+// IMP = In JavaScript, the unary ‘+’ operator can be used to convert a value to a number. When used before a value, it attempts to convert the value to a number type.
+// -> convert number-string into the number:
+let a = '123';
+console.log(+a);
+// -> convert simple-string into the number:
+let b = 'harish';
+console.log(+b);
+// -> convert boolean-value into the number:
+ let c = true;
+ console.log(+c);
+
+// 3 = parseInt():
+
+// 4 = parseFloat():
