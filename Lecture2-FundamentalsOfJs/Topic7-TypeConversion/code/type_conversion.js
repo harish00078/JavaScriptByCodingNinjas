@@ -79,13 +79,19 @@ console.log(parseInt("f12345"));
 // 4 = parseFloat():
 // -> convert the floating-Number-string into the number:
 console.log(parseFloat('123.45'));
+
 // -> IMP =  same thing will happen here in (parsefloat) as (parseInt) for all the conversions:
 // only difference is that here we use the floating-point number:
 console.log(parseFloat('123.45f'));
-console.log(parseFloat('f123.45'));
 
 // 5 = Boolean():
-// here we see the conversion from (boolean) values to (number-values):
+// here we see the conversion of different type-values to (boolean) values:
 
+console.log (Boolean(0));
+console.log (Boolean(100));
+console.log (Boolean(""));
+console.log (Boolean(''));
 
+console.log (Boolean('gdgd'));
 
+console.log (Boolean(undefined));
