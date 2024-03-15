@@ -53,18 +53,39 @@ console.log(Number("value"));
 // IMP = here in result we will have the (1):because in bitwise system (1) respersents the (true) value and (0) repersents the (false) value:
 console.log(Number(true));
 // 2 = Unary (+) plus or addition-operator ---(works on varaibles):
-// second we see the working of unary (+) plus or addition-operatormethod:
+// second we see the working of unary (+) plus or addition-operator method:
 // IMP = In JavaScript, the unary ‘+’ operator can be used to convert a value to a number. When used before a value, it attempts to convert the value to a number type.
 // -> convert number-string into the number:
-let a = '123';
+let a = "123";
 console.log(+a);
 // -> convert simple-string into the number:
-let b = 'harish';
+let b = "harish";
 console.log(+b);
 // -> convert boolean-value into the number:
- let c = true;
- console.log(+c);
+let c = true;
+console.log(+c);
 
+// V.IMP = every (integer) or (floating-point) value is considered as (number) or (number) data-type in javascript:
 // 3 = parseInt():
+// -> converting the number-string into the number:
+console.log(parseInt("12345"));
+// -> IMP = parseInt-method is different from the (number) method:because the number-method is not able to convert the string with number and character values into the number:it will gave us the result in (NaN) value:
+// => 1 = parseInt-method:basically provide the result of string-value in number-value:only even if we have the character-values after the number-values:
+console.log(parseInt("12345f"));
+// => 2 = if we have the character-values:before the (number-value) in the string:
+// then we will have the same result as (number) method for the (simple-string) value:and that is (NaN):
+console.log(parseInt("f12345"));
 
 // 4 = parseFloat():
+// -> convert the floating-Number-string into the number:
+console.log(parseFloat('123.45'));
+// -> IMP =  same thing will happen here in (parsefloat) as (parseInt) for all the conversions:
+// only difference is that here we use the floating-point number:
+console.log(parseFloat('123.45f'));
+console.log(parseFloat('f123.45'));
+
+// 5 = Boolean():
+// here we see the conversion from (boolean) values to (number-values):
+
+
+
