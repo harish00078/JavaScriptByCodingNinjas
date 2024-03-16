@@ -86,12 +86,13 @@ console.log(parseFloat('123.45f'));
 
 // 5 = Boolean():
 // here we see the conversion of different type-values to (boolean) values:
+// IMP = Note that any value that is "falsy" (such as 0, "", null, undefined, and NaN) will convert to false when converted to a boolean, while any other value will convert to true.
 
 console.log (Boolean(0));
+// here (100) is a truthy value:
 console.log (Boolean(100));
 console.log (Boolean(""));
 console.log (Boolean(''));
-
+// here this string is truthy value:
 console.log (Boolean('gdgd'));
-
 console.log (Boolean(undefined));
