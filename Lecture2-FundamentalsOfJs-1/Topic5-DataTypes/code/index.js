@@ -10,17 +10,19 @@ console.log(typeof num);
 // 2 = (string):represents textual data in JavaScript and can be enclosed in single quotes, double quotes, or backticks. In JavaScript, there are several ways to represent strings:
 // => first we use (single-quotes) way:
 const firstName = 'harish';
-// IMP = if we wanna use the ('s) in our string:then we have to  use double-quotes.because we are using the single-quotes in the ('s) express:
+// IMP = if we wanna use the ('s') in our string:then we have to  use double-quotes.because we are using the single-quotes in the ('s) express:
 const firstName1 = "harish's boss";
 // => second we use (double-quotes) way:
 const lastName = "kumar";
-// IMP = if we wanna use the ("s) in our string:then we have to  use single-quotes.because we are using the double-quotes in the ("s) express:
+// IMP = if we wanna use the ("s") in our string:then we have to  use single-quotes.because we are using the double-quotes in the ("s) express:
 const lastName1 = 'kumar"s boss';
-// => third we use Template (literals) or(backticks):
-const gender = `male`;
+// => third we use Template (literals) or(backticks):They are mostly used to represent a string literal that can contain placeholders for variables, making it easier to concatenate strings and variables. 
+// IMP = In addition, the backtick notation also allows for multiline strings.
+let name1 = "harish kumar"
+const gender = `male ${name1}`;
 console.log(typeof firstName);
 console.log(typeof lastName);
-console.log(typeof gender);
+console.log( gender);
 // 3 = boolean:represents a logical value, which can be either true or false.
 const bool = false;
 console.log(typeof bool);
@@ -40,3 +42,4 @@ console.log(typeof num1);
 // 7 = symbol:: represents a unique value that can be used as a key for object properties.
 
 // => 2 = second is (Object-data-types):An object is a non-primitive data type representing a collection of related properties and methods. It can be thought of as a container for related data and behaviour, similar to an object in the real world.
+// IMP = objects are fundamental for working with complex data. Unlike primitive data types that hold single values, objects store collections of key-value pairs. These key-value pairs function like mini-variables within the object, allowing you to associate data with descriptive names (keys) for easier retrieval.
