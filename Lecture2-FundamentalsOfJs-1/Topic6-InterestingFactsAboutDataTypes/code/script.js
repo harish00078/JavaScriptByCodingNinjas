@@ -1,1 +1,1 @@
-console.log('Interesting Facts About Data Types');
+alert('Interesting Facts About Data Types');
