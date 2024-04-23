@@ -10,7 +10,7 @@ console.log("js fundamentals");
 // -> here we (declare) the variable:
 let message;
 // after creating the variable: know we can provide or assign the (value) to it:
-// -> here we (initialize)  that variable:
+// -> here we (initialize) that variable:
 message = 'hello';
 // V.IMP =  we can also create the multiple variables in (one-line):and also provide the (values) to them:
 let y,x,a,b,d=30,h=20;
