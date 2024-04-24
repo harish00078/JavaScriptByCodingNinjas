@@ -10,7 +10,7 @@ console.log(typeof num);
 // 2 = (string):represents textual data in JavaScript and can be enclosed in single quotes, double quotes, or backticks. In JavaScript, there are several ways to represent strings:
 // => first we use (single-quotes) way:
 const firstName = 'harish';
-// IMP = if we wanna use the ('s') in our string:then we have to  use double-quotes.because we are using the single-quotes in the ('s) express:
+// IMP = if we wanna use the ('s') in our string:then we have to  use double-quotes.because we are using the single-quotes in the ('s) expression:
 const firstName1 = "harish's boss";
 // => second we use (double-quotes) way:
 const lastName = "kumar";
