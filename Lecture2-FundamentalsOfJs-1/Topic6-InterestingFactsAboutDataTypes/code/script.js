@@ -11,7 +11,7 @@ console.log(Number.MIN_VALUE);
 console.log(Number.MAX_VALUE *10);
 // => 2 = second we have:here is (-Infinity):
 console.log(Number.MIN_VALUE * 10);
-// IMP = here we are using the (Infinity) values:
+// IMP = here we are using the (Infinity) values:     
 // if any thing divided with the (zero):then it will gave us the result in (infinite) or (+Infinite):
 console.log(12/0);
 // if any thing gets divided with the (Infinity) direclty:then it will gave us the result in (zero):
