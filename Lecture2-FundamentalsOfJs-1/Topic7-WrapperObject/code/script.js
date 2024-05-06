@@ -10,7 +10,7 @@ let num = 10;
 let str = 'harish';
 let bigNum = 10n;
 let bool = true;
-
+// (.__proto__) method is used to see the (wrapper-object) of particular (primitive) data-type:
 console.log(num.__proto__);
 console.log(str.__proto__);
 console.log(bigNum.__proto__);
