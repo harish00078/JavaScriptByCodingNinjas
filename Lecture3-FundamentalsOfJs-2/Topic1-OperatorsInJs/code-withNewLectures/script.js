@@ -85,16 +85,16 @@ console.log(x);
 // -> Pre-Increment Operator:
 
 // (Post-Increment) operator:which we commonly used in increment operations:
-// -> As per its name says Post-increment:it basically increase the value by one (after) our (expression) or (line of code) gets (executed):because In that line of code (y) variable comes first that's why it gets (executed) first:and then after that its value gets increase by (one):
-// -> that's why if we direclty use this operator type in console-statement:To increase our value:then we are not gonna be able to that:because in this operator at that time our value is not gets (increased):so it gonna be print the same value as our varaible have:
+// -> As per its name says Post-increment:it basically increase the value by one (after) our (expression) or (line of code) gets (executed):or we can say in next line of our code.because In that line of code (y) variable comes first that's why it gets (executed) first:and then after that its value gets increase by (one):
+// -> that's why if we direclty use this operator type in console-statement:To increase our value:then we are not gonna be able to that:because at that time our value is not gets (increased):so it gonna be print the same value as our varaible have:
 let y = 1;
 // here (y) variable's value will be remain same:
 console.log(y++);
 // but here it will be increased by one:
 console.log(y);
 // (Pre-Increment) Operator: 
-// -> As per its name says pre-increment:it basically increase the value by one (before) our (expression) or line of code gets (executed):because In that line of code (++) increment-operator gets first and then we will have the variable :
-// -> that's why if we directly use this operation type in console-statement:To increase our value:then are gonna be able to do that:because in operator at that time our value is already gets increased:so it gonna be print the increment value of variable:
+// -> As per its name says pre-increment:it basically increase the value by one (before) our (expression) or line of code gets (executed):or we can say in the same line of our code.because In that line of code (++) increment-operator gets first and then we will have the variable :
+// -> that's why if we directly use this operation type in console-statement:To increase our value:then are gonna be able to do that:because at that time our value is already gets increased:so it gonna be print the increment value of variable:
 let z = 1;
 console.log(++z);
 console.log(z);
