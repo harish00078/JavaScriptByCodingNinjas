@@ -93,8 +93,8 @@ console.log(y++);
 // but here it will be increased by one:
 console.log(y);
 // (Pre-Increment) Operator: 
-// -> As per its name says pre-increment:it basically increase the value by one (before) our (expression) or line of code gets (executed):or we can say in the same line of our code.because In that line of code (++) increment-operator gets first and then we will have the variable :
-// -> that's why if we directly use this operation type in console-statement:To increase our value:then are gonna be able to do that:because at that time our value is already gets increased:so it gonna be print the increment value of variable:
+// -> As per its name says pre-increment:it basically increase the value by one (before) our (expression) or line of code gets (executed):or we can say in the same line of our code.because In that line of code (++) increment-operator gets first and then after that we are  having the variable :
+// -> that's why if we directly use this operator type in console-statement:To increase our value:then we are gonna be able to do that:because at that time our value is already gets increased:so it gonna be print the increment value of variable:
 let z = 1;
 console.log(++z);
 console.log(z);
