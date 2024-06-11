@@ -7,7 +7,7 @@ console.log("Learn about Operator in js");
 // 4 = Logical Operators:(&&,||,!)
 // 5 = Bitwise Operators:(&,|,^,~,<<,>>,>>> )
 
-// => here in this topic we gonna be learn about:these operators:
+// => here in this topic we have learn about:these operators:
 // 1 = Assignment Operators:
 // 2 = Arithematic Operators:
 // 3 = more Arithematic Operators:
@@ -31,32 +31,6 @@ console.log(b);
 console.log(c);
 
 
-// => other Assignment Operators:which are known as (Augmented) assignment operators:
-// -> addition assignment:
-let d = 5;
-d += 2;
-console.log(d);
-// -> substraction assignment:
-let e = 5;
-e -= 2;
-console.log(e);
-// -> multiplication assignment:
-let multi = 5;
-multi *= 2;
-console.log(multi);
-// -> division assignment:
-let f = 5;
-f /= 2;
-console.log(f);
-// -> modulus assignment:
-let g = 5;
-g %= 2;
-console.log(g);
-// -> exponent or power assignment:
-let h = 5;
-h **= 2;
-// here we are doing the (raise to the power):
-console.log(h);
 
 // => 2 = Arithematic Operators:(+,-,*,/,%):These operators perform basic arithmetic operations on numerical values:
 // => Basic Arithematic operators:(+,-,*,/,%)
@@ -71,7 +45,7 @@ console.log(10/2);
 // -> modulus or Remainder Arithematic operator:
 console.log(10%2);
 
-// => more or other Arithematic operators:(++,--,+,-,**):
+// => 3 = more or other Arithematic operators:(++,--,+,-,**):
 // -> Increment Arithematic operator:(++):
 let x = 10;
 // IMP = one way to do addition on varaible values:with the help of addition arithematic operator:but method is used when we wanna increase the value of varaible by a particular number not by a one: 
@@ -101,7 +75,31 @@ console.log(z);
 
 
 
-
-
+// => 4 = other Assignment Operators:which are known as (Augmented) assignment operators:
+// -> addition assignment:
+let d = 5;
+d += 2;
+console.log(d);
+// -> substraction assignment:
+let e = 5;
+e -= 2;
+console.log(e);
+// -> multiplication assignment:
+let multi = 5;
+multi *= 2;
+console.log(multi);
+// -> division assignment:
+let f = 5;
+f /= 2;
+console.log(f);
+// -> modulus assignment:
+let g = 5;
+g %= 2;
+console.log(g);
+// -> exponent or power assignment:
+let h = 5;
+h **= 2;
+// here we are doing the (raise to the power):
+console.log(h);
 
 
