@@ -46,7 +46,7 @@ console.log(10/2);
 console.log(10%2);
 
 // => 3 = more or other Arithematic operators:(++,--,+,-,**):
-// -> Increment Arithematic operator:(++):
+// => 1 =  Increment Arithematic operator:(++):
 let x = 10;
 // IMP = one way to do addition on varaible values:with the help of addition arithematic operator:but method is used when we wanna increase the value of varaible by a particular number not by a one: 
 // x = x+1;
@@ -72,6 +72,8 @@ console.log(y);
 let z = 1;
 console.log(++z);
 console.log(z);
+// => 2 =  decrement Arithematic operator:(--):
+
 
 
 
