@@ -46,6 +46,7 @@ console.log(10/2);
 console.log(10%2);
 
 // => 3 = more or other Arithematic operators:(++,--,+,-,**):
+
 // => 1 =  Increment Arithematic operator:(++):
 let x = 10;
 // IMP = one way to do addition on varaible values:with the help of addition arithematic operator:but method is used when we wanna increase the value of varaible by a particular number not by a one: 
@@ -72,12 +73,38 @@ console.log(y);
 let z = 1;
 console.log(++z);
 console.log(z);
+
 // => 2 =  decrement Arithematic operator:(--):
+// IMP = one way to do substraction on varaible values:with the help of substraction arithematic operator:but method is used when we wanna decrease the value of varaible by a particular number not by a one:
+let i = 10;
+i = i-1;
+// IMP = and other way is decrement-operator:which does the same thing but in simple manner:
+i--;
+console.log('decrement arithmatic operator',i);
+
+// => It also have types in it:or we can say that we can declare it in two ways or it works in two ways:
+// -> Post-decrement Operator:
+// -> Pre-decrement Operator:
+
+// (Post-decrement) operator:which we commonly used in decrement operations:its also works in same way as (Post-increment) operator:but only the difference is that it decrease the value by one (after) our (expression) or (line of code) gets (executed):or we can say in next line of our code.because In that line of code (y) variable comes first that's why it gets (executed) first:and then after that its value gets decrease by (one):
+let j = 1;
+j = j++;
+console.log(j);
+// (Pre-decrement) Operator:its also works in the same way as (Pre-increment) operator:but only the difference is that it decrease the value by one (before) our (expression) or line of code gets (executed):or we can say in the same line of our code.because In that line of code (--) decrement-operator gets first and then after that we are  having the variable :
+let k = 1;
+k = --k;
+console.log(k);
+
+// => 3 = Unary-Plus:(+):It basically help us to add the positive-sign in front of the number:It does not do anything
+
+// => 4 = Unary-Minus:(-):It basically help us to add the negative-sign in front of the number:
+
+// => 5 = Exponent:(**):
 
 
 
 
-// => 4 = other Assignment Operators:which are known as (Augmented) assignment operators:
+// => 4 = other Assignment-Operators:which are known as (Augmented) assignment operators:
 // -> addition assignment:
 let d = 5;
 d += 2;
