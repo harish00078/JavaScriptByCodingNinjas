@@ -31,6 +31,36 @@ console.log(b);
 console.log(c);
 
 
+// => 4 = other Assignment-Operators:which are known as (Augmented) assignment operators:
+// -> addition assignment:
+let d = 5;
+d += 2;
+console.log(d);
+// -> substraction assignment:
+let e = 5;
+e -= 2;
+console.log(e);
+// -> multiplication assignment:
+let multi = 5;
+multi *= 2;
+console.log(multi);
+// -> division assignment:
+let f = 5;
+f /= 2;
+console.log(f);
+// -> modulus assignment:
+let g = 5;
+g %= 2;
+console.log(g);
+// -> exponent or power assignment:
+let h = 5;
+h **= 2;
+// here we are doing the (raise to the power):
+console.log(h);
+
+
+
+
 
 // => 2 = Arithematic Operators:(+,-,*,/,%):These operators perform basic arithmetic operations on numerical values:
 // => Basic Arithematic operators:(+,-,*,/,%)
@@ -102,33 +132,5 @@ console.log(k);
 // => 5 = Exponent:(**):
 
 
-
-
-// => 4 = other Assignment-Operators:which are known as (Augmented) assignment operators:
-// -> addition assignment:
-let d = 5;
-d += 2;
-console.log(d);
-// -> substraction assignment:
-let e = 5;
-e -= 2;
-console.log(e);
-// -> multiplication assignment:
-let multi = 5;
-multi *= 2;
-console.log(multi);
-// -> division assignment:
-let f = 5;
-f /= 2;
-console.log(f);
-// -> modulus assignment:
-let g = 5;
-g %= 2;
-console.log(g);
-// -> exponent or power assignment:
-let h = 5;
-h **= 2;
-// here we are doing the (raise to the power):
-console.log(h);
 
 
