@@ -126,11 +126,18 @@ k = --k;
 console.log(k);
 
 // => 3 = Unary-Plus:(+):It basically help us to add the positive-sign in front of the number:It does not do anything
+let l = +10;
+console.log(l);
 
 // => 4 = Unary-Minus:(-):It basically help us to add the negative-sign in front of the number:
+let m = -10;
+console.log(m);
+
 
 // => 5 = Exponent:(**):
-
-
-
+// -> exponent or power assignment:
+let n = 5;
+n **= 2;
+// here we are doing the (raise to the power):
+console.log(n);
 
