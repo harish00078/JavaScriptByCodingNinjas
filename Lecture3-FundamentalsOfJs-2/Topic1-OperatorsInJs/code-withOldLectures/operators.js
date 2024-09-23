@@ -94,7 +94,7 @@ console.log(!1);
 // IMP = so when we are using any kind of bitwise operator.we need to convert those bit values into the result.acc to the properties of that particular operator:
 // 1 = Bitwise AND(&) operator:
 let A = 10; // 1010
-let B = 2; // 0010   
+let B = 2; // 0010
 // IMP - and when we run (&) AND-operator properties on the (bit-values) of these two-variables:we will get the (result):
 // 1010 & 0010 = 0010
 let result1 = a & b;
@@ -107,27 +107,28 @@ console.log(result2);
 // 3 = Bitwise XOR(^) operator:
 let E = 5;
 let F = 3;
-let result3 = E^F;
+let result3 = E ^ F;
 console.log(result3);
 // 4 = Bitwise NOT(~) operator:
-let G = 5 // (binary: 0101)
+let G = 5; // (binary: 0101)
 
-let result4= ~G; // result: -6 (binary: 1010)  (Two's complement representation):
+let result4 = ~G; // result: -6 (binary: 1010)  (Two's complement representation):
 console.log(result4);
 // 5 = left shift(<<) bitwise operator:
-let H = 10;// 1010
+let H = 10; // 1010
 // IMP = here In second variable we will basically repersents that:how much positions we have shift the bit-values of the first-variable:
 let I = 2;
 // and after shifting those bits:whatever number we get from those bit-value will  become our result:
-let result5 = H<<I;//101000
+
+let result5 = H << I; //101000
 console.log(result5);
 // 6 = right shift(>>)bitwise operator:
 let J = 10;
 let K = 2;
-let result6 = J>>K;
-console.log(result6)
+let result6 = J >> K;
+console.log(result6);
 // 6 = Zero-Fill right shift(>>)bitwise operator:
 let L = 10;
 let M = 2;
-let result7 = L>>>M;
-console.log(result7)
+let result7 = L >>> M;
+console.log(result7);
