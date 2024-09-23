@@ -14,7 +14,7 @@ console.log("Learn about Operator in js");
 // 4 = Augmented Assignment Operators:
 
 // => 1 = Assignment Operators:(=,+=,-=,*=,/=,%=,**==):these operators are used to assign a value to the variable:
- 
+
 // IMP = these Assignment-operators baiscally work from (right) to (left) not from (left) to (right) other then like other operators:and it called (associativity):
 // In associativity.first the values get resolved.and then they get assigned to its variable:
 
@@ -24,12 +24,11 @@ let a = 10;
 // -> In this equation or variable:we can see that because of its (right) to (left) associativity:first (a) get resolved and after that its value get assigned to the (b) variable:
 let b = a;
 // -> because of its Associativity:we can also assign the one value to multiple variables in one-equation or one-variable declaration:
-let c = a = 20;
+let c = (a = 20);
 
 console.log(a);
 console.log(b);
 console.log(c);
-
 
 // => 4 = other Assignment-Operators:which are known as (Augmented) assignment operators:
 // -> addition assignment:
@@ -58,28 +57,24 @@ h **= 2;
 // here we are doing the (raise to the power):
 console.log(h);
 
-
-
-
-
 // => 2 = Arithematic Operators:(+,-,*,/,%):These operators perform basic arithmetic operations on numerical values:
 // => Basic Arithematic operators:(+,-,*,/,%)
 // -> addition Arithematic operator:
-console.log(10+2);
+console.log(10 + 2);
 // -> substraction Arithematic operator:
-console.log(10-2);
+console.log(10 - 2);
 // -> multiplication Arithematic operator:
-console.log(10*2);
+console.log(10 * 2);
 // -> division Arithematic operator
-console.log(10/2);
+console.log(10 / 2);
 // -> modulus or Remainder Arithematic operator:
-console.log(10%2);
+console.log(10 % 2);
 
 // => 3 = more or other Arithematic operators:(++,--,+,-,**):
 
 // => 1 =  Increment Arithematic operator:(++):
 let x = 10;
-// IMP = one way to do addition on varaible values:with the help of addition arithematic operator:but method is used when we wanna increase the value of varaible by a particular number not by a one: 
+// IMP = one way to do addition on varaible values:with the help of addition arithematic operator:but method is used when we wanna increase the value of varaible by a particular number not by a one:
 // x = x+1;
 // IMP = and other way is increment-operator:which does the same thing but in simple manner:
 x++;
@@ -97,7 +92,7 @@ let y = 1;
 console.log(y++);
 // but here it will be increased by one:
 console.log(y);
-// (Pre-Increment) Operator: 
+// (Pre-Increment) Operator:
 // -> As per its name says pre-increment:it basically increase the value by one (before) our (expression) or line of code gets (executed):or we can say in the same line of our code.because In that line of code (++) increment-operator gets first and then after that we are  having the variable :
 // -> that's why if we directly use this operator type in console-statement:To increase our value:then we are gonna be able to do that:because at that time our value is already gets increased:so it gonna be print the increment value of variable:
 let z = 1;
@@ -107,10 +102,10 @@ console.log(z);
 // => 2 =  decrement Arithematic operator:(--):
 // IMP = one way to do substraction on varaible values:with the help of substraction arithematic operator:but method is used when we wanna decrease the value of varaible by a particular number not by a one:
 let i = 10;
-i = i-1;
+i = i - 1;
 // IMP = and other way is decrement-operator:which does the same thing but in simple manner:
 i--;
-console.log('decrement arithmatic operator',i);
+console.log("decrement arithmatic operator", i);
 
 // => It also have types in it:or we can say that we can declare it in two ways or it works in two ways:
 // -> Post-decrement Operator:
@@ -133,11 +128,9 @@ console.log(l);
 let m = -10;
 console.log(m);
 
-
 // => 5 = Exponent:(**):
 // -> exponent or power assignment:
 let n = 5;
 n **= 2;
 // here we are doing the (raise to the power):
 console.log(n);
-
