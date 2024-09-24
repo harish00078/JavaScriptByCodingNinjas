@@ -5,7 +5,7 @@ console.log("Learn about Operator in js");
 // 2 = Assignment Operators:(=,+=,-=,*=,/=,%=,**=)
 // 3 = Comparison Operators:(>,<,<=,>=,==,!=,===,!==)
 // 4 = Logical Operators:(&&,||,!)
-// 5 = Bitwise Operators:(&,|,^,~,<<,>>,>>> ) 
+// 5 = Bitwise Operators:(&,|,^,~,<<,>>,>>> )
 
 // => here in this topic we have learn about:these operators:
 // 1 = Assignment Operators:
