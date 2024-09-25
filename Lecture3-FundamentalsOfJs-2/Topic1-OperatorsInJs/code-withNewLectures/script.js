@@ -23,6 +23,7 @@ let a = 10;
 // IMP = example of associativity:
 // -> In this equation or variable:we can see that because of its (right) to (left) associativity:first (a) get resolved and after that its value get assigned to the (b) variable:
 let b = a;
+
 // -> because of its Associativity:we can also assign the one value to multiple variables in one-equation or one-variable declaration:
 let c = (a = 20);
 
