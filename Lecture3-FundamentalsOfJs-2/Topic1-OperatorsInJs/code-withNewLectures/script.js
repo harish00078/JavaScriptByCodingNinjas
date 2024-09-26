@@ -27,7 +27,6 @@ let b = a;
 // -> because of its Associativity:we can also assign the one value to multiple variables in one-equation or one-variable declaration:
 let c = (a = 20);
 
-
 console.log(a);
 console.log(b);
 console.log(c);
