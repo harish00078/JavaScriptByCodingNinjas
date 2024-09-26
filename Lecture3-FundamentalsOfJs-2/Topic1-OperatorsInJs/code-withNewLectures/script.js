@@ -25,7 +25,7 @@ let a = 10;
 // -> In this equation or variable:we can see that because of its (right) to (left) associativity:first (a) get resolved and after that its value get assigned to the (b) variable:
 let b = a;
 
-// -> because of its Associativity:we can also assign the one value to multiple variables in one-equation or one-variable declaration:
+// -> because of its Associativity-working process:we can also assign the one value to multiple variables in one-equation or one-variable declaration:
 let c = (a = 20);
 
 console.log(a);
@@ -37,6 +37,7 @@ console.log(c);
 let d = 5;
 d += 2;
 console.log(d);
+// V.V.IMP = all the other augmented assignment type operators works in the same way as (addition) augmented assignment operator:
 // -> substraction assignment:
 let e = 5;
 e -= 2;
