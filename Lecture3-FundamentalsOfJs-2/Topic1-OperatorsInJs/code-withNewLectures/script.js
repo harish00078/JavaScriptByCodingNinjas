@@ -1,5 +1,6 @@
 console.log("Learn about Operator in js");
-// Operators in js:operators are special symbols that perform operations (actions,workings) on values (operands). These operations can be anything from basic arithmetic calculations to complex comparisons and data manipulations. They're fundamental building blocks for writing JavaScript code as they control the flow and processing of data with in your program:
+// Operators in js:operators are special symbols that perform operations (actions,workings) on values (operands). These operations can be anything from basic arithmetic calculations to complex comparisons and data manipulations. 
+// They're fundamental building blocks for writing JavaScript code as they control the flow and processing of data with in your program:
 // => Operators are mainly of five types:
 // 1 = Arithematic Operators:(+,-,*,/,%,**,++,--)
 // 2 = Assignment Operators:(=,+=,-=,*=,/=,%=,**=)
