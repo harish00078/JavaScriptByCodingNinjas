@@ -1,5 +1,5 @@
 console.log("Learn about Operator in js");
-// Operators in js:operators are special symbols that perform operations (actions,workings) on values (operands). These operations can be anything from basic arithmetic calculations to complex comparisons and data manipulations. 
+// Operators in js:operators are special symbols or keywords that perform operations (actions,workings) on values (operands). These operations can be anything from basic arithmetic calculations to complex comparisons and data manipulations. 
 // They're fundamental building blocks for writing JavaScript code as they control the flow and processing of data with in your program:
 // => Operators are mainly of five types:
 // 1 = Arithematic Operators:(+,-,*,/,%,**,++,--)
@@ -17,7 +17,7 @@ console.log("Learn about Operator in js");
 // => 1 = Assignment Operators:(=,+=,-=,*=,/=,%=,**==):these operators are used to assign a value to the variable:
 
 // IMP = these Assignment-operators baiscally work from (right) to (left) not from (left) to (right) other then like other operators:and it called (associativity):
-// In associativity.first the values get resolved.and then they get assigned to its variable:
+// V.V.IMP = In associativity.first the values get resolved.and then they get assigned to its variable:
 
 // => Basic Assignment operator:
 let a = 10;
