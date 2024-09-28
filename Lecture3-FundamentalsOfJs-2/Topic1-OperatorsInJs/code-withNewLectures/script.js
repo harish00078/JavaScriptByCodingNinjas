@@ -131,8 +131,7 @@ console.log(l);
 let m = -10;
 console.log(m);
 
-// V.IMP = 
-let ak = (+'7777');
+// V.V.IMP = unary plus operator will get us the same result as (number-method) for all the conversions which be have did with the help of (number-method):so when we use it 
 console.log(typeof ak) 
 
 // => 5 = Exponent:(**):It help us to gave the (raise to the power) value to the (numerical-value):
