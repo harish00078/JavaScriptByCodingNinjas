@@ -131,6 +131,10 @@ console.log(l);
 let m = -10;
 console.log(m);
 
+// V.IMP = 
+let ak = (+'7777');
+console.log(typeof ak) 
+
 // => 5 = Exponent:(**):It help us to gave the (raise to the power) value to the (numerical-value):
 // -> exponent or power assignment:
 let n = 5;
