@@ -2,7 +2,7 @@
 console.log("Learning About Comparison Operator");
 
 // => 1 = Comparison-Operator:(>,<,<=,>=,==,!=,===,!==):
-// V.IMP = comparison-operators basically return us the boolean values:These operators compare two values and return a boolean value (true or false) to us  based on the comparison result:
+// V.IMP = comparison-operators basically return us the boolean-values:These operators compare two values and return a boolean value (true or false) to us  based on there comparison-result:
 
 // V.IMP = the two of these comparison operators:you will be only find in the javascript language(===,!==):
 // -> (===) = strict-equality-operator:
