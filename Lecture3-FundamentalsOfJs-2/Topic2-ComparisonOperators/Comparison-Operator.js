@@ -10,14 +10,14 @@ console.log("Learning About Comparison Operator");
 
 // => here gonna check them one by one:
 // => 1 = (==): Its known as (equality) operator:It compares the values of two operands for equality but without any type conversion. It returns true if the values are equal and have the same type or same (data-type):
-console.log(5==5);
+console.log(5 == 5);
 // => 2 = (!=):  Its known as (inequality) operator:It compares the values of two operands for inequality but without any type conversion. It returns true if the values are not equal and have the same type or same (data-type):
-console.log(5!=6);
+console.log(5 != 6);
 // => 3 = (<): Its known as (less-than) operator:It compares the values of two operands and returns true if the value of the left operand is less than the value of the right operand:
-console.log(5<6);
+console.log(5 < 6);
 // => 4 = (>): Its known as (greater-than) operator:It compares the values of two operands and returns true if the value of the left operand is greater than the value of the right operand:
-console.log(6>5);
+console.log(6 > 5);
 // => 5 = (<=): Its known as (less-than-equal-to) operator:It compares the values of two operands and returns true if the value of the left operand is less than or equal to the value of the right operand:
-console.log(5<=5);
+console.log(5 <= 5);
 //  => 6 = (>=): Its known as (greater-than-equal-to) operator:It compares the values of two operands and returns true if the value of the left operand is greater than or equal to the value of the right operand:
-console.log(5>=5);
+console.log(5 >= 5);
