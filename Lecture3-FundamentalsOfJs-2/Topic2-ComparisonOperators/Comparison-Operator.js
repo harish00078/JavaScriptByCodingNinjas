@@ -28,7 +28,6 @@ console.log(5 >= 5);
 // IMP = here we use simple (equality) operator:to check (5) with numerical value and ('5') of string:then we gonna get the output as (true):but its not ture:
 console.log(5 == "5");
 // but if we use the (strict) equality operator:then it gonna return us the (false) result:because (strict) operator not only check the (values) it also check there (data-types):
-
 console.log(5 === "5");
 
 // 2 = (!==): strict-inequality(comparison)-operator:It compares the values of two operands for inequality and returns true if the values are not equal and have the same type or same (data-type):
