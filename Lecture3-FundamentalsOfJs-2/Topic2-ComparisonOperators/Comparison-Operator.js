@@ -22,3 +22,5 @@ console.log(6 > 5);
 console.log(5 <= 5);
 //  => 6 = (>=): Its known as (greater-than-equal-to) operator:It compares the values of two operands and returns true if the value of the left operand is greater than or equal to the value of the right operand:
 console.log(5 >= 5);
+
+// V.IMP = 
