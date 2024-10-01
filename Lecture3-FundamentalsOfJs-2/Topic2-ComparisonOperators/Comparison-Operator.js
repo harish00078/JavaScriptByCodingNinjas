@@ -36,4 +36,4 @@ console.log(5 === "5");
 console.log(5 != "5");
 
 // -> check for (strict-inequality) operator:
-console.log(5 !=='5');
+console.log(5 !== "5");
