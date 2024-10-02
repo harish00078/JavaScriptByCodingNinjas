@@ -12,3 +12,6 @@ console.log("Learning about Logical Operators");
 // -> second = (||)-Logical (OR) operator:
 // -> third = (!)-Logical (NOT) operator:
 
+// -> 1 =  (&&)-Logical (AND) operator:It is used to check and compare two (boolean) values:if both of them are (true) then it will return us the (true) value as result:
+// -> 2 = (||)-Logical (OR) operator:It is used to check and compare two (boolean) values:if one of them is (true) then it will return us the (true) value as result:
+// -> 3 = (!)-Logical (NOT) operator:It is used to check and compare one (boolean) value:if it is (true) then it will return us the (false) value as result:
