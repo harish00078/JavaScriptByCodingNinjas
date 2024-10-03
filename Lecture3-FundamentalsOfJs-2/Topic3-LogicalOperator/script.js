@@ -13,9 +13,26 @@ console.log("Learning about Logical Operators");
 // -> third = (!)-Logical (NOT) operator:
 
 // -> 1 =  (&&)-Logical (AND) operator:It is used to check and compare two (boolean) values:if both of them are (true) then it will return us the (true) value as result: otherwise it will return us the (false) value as result:
+// -> 2 = (||)-Logical (OR) operator:It is used to check and compare two (boolean) values:if one of them is (true) then it will return us the (true) value as result: otherwise it will return us the (false) value as result:
+// -> 3 = (!)-Logical (NOT) operator:It is used to check and compare one (boolean) value:if it is (true) then it will return us the (false) value as result: otherwise it will return us the (true) value as result:
+
+// V.IMP = As we have learned that (logical-operator):works differently with (boolean-values) if we compare it with the (truthy) and (falsy) values:
+// => (first) = here we are using logical operator with the boolean-values:
+// -> (&&) -Logical (AND) operator:
 let grade = 60;
 let scholership = 80;
 let eligible = grade > 60 && scholership > 80;
 console.log(eligible);
-// -> 2 = (||)-Logical (OR) operator:It is used to check and compare two (boolean) values:if one of them is (true) then it will return us the (true) value as result: otherwise it will return us the (false) value as result:
-// -> 3 = (!)-Logical (NOT) operator:It is used to check and compare one (boolean) value:if it is (true) then it will return us the (false) value as result: otherwise it will return us the (true) value as result:
+// -> (||) -Logical (OR) operator:
+
+let m1 = 55;
+let m2 = 55;
+let m5 = 45;
+let eligibility = m1 > 50 || m2 > 50 || m5 > 50;
+console.log(eligibility);
+
+// -> (!) -Logical (NOT) operator:
+let rightToVote = false;
+console.log(!rightToVote);
+
+// => (second) = here we are using logical operator with the non-boolean-values or we can say the (truthy) and (falsy) values:
