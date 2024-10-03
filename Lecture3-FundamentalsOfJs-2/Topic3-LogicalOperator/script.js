@@ -12,8 +12,8 @@ console.log("Learning about Logical Operators");
 // -> second = (||)-Logical (OR) operator:
 // -> third = (!)-Logical (NOT) operator:
 
-// -> 1 =  (&&)-Logical (AND) operator:It is used to check and compare two (boolean) values:if both of them are (true) then it will return us the (true) value as result: otherwise it will return us the (false) value as result:
-// -> 2 = (||)-Logical (OR) operator:It is used to check and compare two (boolean) values:if one of them is (true) then it will return us the (true) value as result: otherwise it will return us the (false) value as result:
+// -> 1 =  (&&)-Logical (AND) operator:It is used to check and compare multiple boolean-values:if both of them are (true) then it will return us the (true) value as result: otherwise it will return us the (false) value as result:but it works differently with (truthy) and (falsy) values:
+// -> 2 = (||)-Logical (OR) operator:It is used to check and compare multiple (boolean) values:if one of them is (true) then it will return us the (true) value as result: otherwise it will return us the (false) value as result:it also works differently with the (truthy) and (falsy) values:
 // -> 3 = (!)-Logical (NOT) operator:It is used to check and compare one (boolean) value:if it is (true) then it will return us the (false) value as result: otherwise it will return us the (true) value as result:
 
 // V.IMP = As we have learned that (logical-operator):works differently with (boolean-values) if we compare it with the (truthy) and (falsy) values:
