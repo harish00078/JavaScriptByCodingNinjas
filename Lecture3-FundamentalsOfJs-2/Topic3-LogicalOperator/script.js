@@ -38,4 +38,3 @@ let rightToVote = false;
 console.log(!rightToVote);
 
 // => (second) = here we are using logical operator with the non-boolean-values or we can say the (truthy) and (falsy) values:
-console.log(1 && true);
