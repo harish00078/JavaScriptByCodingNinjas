@@ -21,7 +21,7 @@ console.log(y);
 
 // => 2 = Assignment-Operators:These operators are used to assign a value to a variable.
 // here we have Assignment-operators:(=,+=,-=,*=,/=,%=,**==)
-// IMP = here we are assigning the value to the variable with the  help of (=) equalto which is basically a  (Assignment) operator:
+// IMP = here we are assigning the value to the variable with the  help of (=) equal which is basically a  (Assignment) operator:
 let a = 2;
 // IMP = In this way all the other assignment operators work:
 let b = 5;
