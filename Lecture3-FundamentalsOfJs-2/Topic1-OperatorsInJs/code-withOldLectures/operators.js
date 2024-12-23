@@ -1,5 +1,5 @@
 // Operators in javascript:
-// => 1 = (Arithemetic)-operators:These operators perform basic arithmetic operations on numerical values.
+// => 1 = (Arithmetic)-operators:These operators perform basic arithmetic operations on numerical values.
 // here we have Arithmetic-operators: (+,-,*,/,%,**,++,--)
 console.log(3 + 5);
 console.log(5 - 2);
