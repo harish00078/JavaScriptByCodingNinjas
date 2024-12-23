@@ -4,7 +4,7 @@
 console.log(3 + 5);
 console.log(5 - 2);
 console.log(5 * 3);
-// IMP = divison operator basically proivde us the (quotient) in the result:
+// IMP = division operator basically proivde us the (quotient) in the result:
 console.log(4 / 2);
 // IMP = modulus operator basically provide us the (remainder) in the result:
 console.log(4 % 2);
