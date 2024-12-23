@@ -116,7 +116,7 @@ let result4 = ~G; // result: -6 (binary: 1010)  (Two's complement representation
 console.log(result4);
 // 5 = left shift(<<) bitwise operator:
 let H = 10; // 1010
-// IMP = here In second variable we will basically repersents that:how much positions we have shift the bit-values of the first-variable:
+// IMP = here In second variable we will basically represents that:how much positions we have shift the bit-values of the first-variable:
 let I = 2;
 // and after shifting those bits:whatever number we get from those bit-value will  become our result:
 
