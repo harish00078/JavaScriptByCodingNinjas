@@ -90,7 +90,6 @@ console.log(!1);
 // => 5 = Bitwise Operators:
 // here we have some bitwise operators:(&,|,^,~,<<,>>,>>> ):
 // IMP = In bitwise operator.we work with the bits means with the (0 and 1):
-
 // In bitwise operator:(0) represents the (false) and (1) represents (true):
 // IMP = so when we are using any kind of bitwise operator.we need to convert those bit values into the result.acc to the properties of that particular operator:
 // 1 = Bitwise AND(&) operator:
