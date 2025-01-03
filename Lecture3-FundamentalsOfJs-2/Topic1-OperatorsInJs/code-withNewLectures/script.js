@@ -103,12 +103,12 @@ console.log(++z);
 console.log(z);
 
 // => 2 =  decrement Arithmetic operator:(--):
-// IMP = one way to do subtraction on variable values:with the help of substraction arithematic operator:but method is used when we wanna decrease the value of varaible by a particular number not by a one:
+// IMP = one way to do subtraction on variable values:with the help of subtraction arithmetic operator:but method is used when we wanna decrease the value of variable by a particular number not by a one:
 let i = 10;
 i = i - 1;
 // IMP = and other way is decrement-operator:which does the same thing but in simple manner:
 i--;
-console.log("decrement arithmatic operator", i);
+console.log("decrement arithmetic operator", i);
 
 // => It also have types in it:or we can say that we can declare it in two ways or it works in two ways:
 // -> Post-decrement Operator:
