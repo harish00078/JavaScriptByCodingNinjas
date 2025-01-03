@@ -77,7 +77,7 @@ console.log(10 % 2);
 
 // => 1 =  Increment Arithmetic operator:(++):
 let x = 10;
-// IMP = one way to do addition on varaible values:with the help of addition arithematic operator:but method is used when we wanna increase the value of varaible by a particular number not by a one:
+// IMP = one way to do addition on variable values:with the help of addition arithmetic operator:but method is used when we wanna increase the value of variable by a particular number not by a one:
 // x = x+1;
 // IMP = and other way is increment-operator:which does the same thing but in simple manner:
 x++;
