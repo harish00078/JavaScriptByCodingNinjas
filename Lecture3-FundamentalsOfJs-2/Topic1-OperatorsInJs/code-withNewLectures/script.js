@@ -64,18 +64,18 @@ console.log(h);
 // => Basic Arithmetic operators:(+,-,*,/,%)
 // -> addition Arithmetic operator:
 console.log(10 + 2);
-// -> substraction Arithematic operator:
+// -> subtraction Arithmetic operator:
 console.log(10 - 2);
-// -> multiplication Arithematic operator:
+// -> multiplication Arithmetic operator:
 console.log(10 * 2);
-// -> division Arithematic operator
+// -> division Arithmetic operator
 console.log(10 / 2);
-// -> modulus or Remainder Arithematic operator:
+// -> modulus or Remainder Arithmetic operator:
 console.log(10 % 2);
 
-// => 3 = more or other Arithematic operators:(++,--,+,-,**):
+// => 3 = more or other Arithmetic operators:(++,--,+,-,**):
 
-// => 1 =  Increment Arithematic operator:(++):
+// => 1 =  Increment Arithmetic operator:(++):
 let x = 10;
 // IMP = one way to do addition on varaible values:with the help of addition arithematic operator:but method is used when we wanna increase the value of varaible by a particular number not by a one:
 // x = x+1;
