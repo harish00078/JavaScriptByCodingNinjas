@@ -10,8 +10,8 @@ console.log("Learn about Operator in js");
 
 // => here in this topic we have learn about:these operators:
 // 1 = Assignment Operators:
-// 2 = Arithematic Operators:
-// 3 = more Arithematic Operators:
+// 2 = Arithmetic Operators:
+// 3 = more Arithmetic Operators:
 // 4 = Augmented Assignment Operators:
 
 // => 1 = Assignment Operators:(=,+=,-=,*=,/=,%=,**==):these operators are used to assign a value to the variable:
