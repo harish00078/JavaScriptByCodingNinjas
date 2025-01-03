@@ -16,7 +16,7 @@ console.log("Learn about Operator in js");
 
 // => 1 = Assignment Operators:(=,+=,-=,*=,/=,%=,**==):these operators are used to assign a value to the variable:
 
-// IMP = these Assignment-operators baiscally work from (right) to (left) not from (left) to (right) other then like other operators:and it called (associativity):
+// IMP = these Assignment-operators basically work from (right) to (left) not from (left) to (right) other then like other operators:and it called (associativity):
 // V.V.IMP = In associativity.first the values get resolved.and then they get assigned to its variable:
 
 // => Basic Assignment operator:
@@ -38,7 +38,7 @@ let d = 5;
 d += 2;
 console.log(d);
 // V.V.IMP = all the other augmented assignment type operators works in the same way as (addition) augmented assignment operator:
-// -> substraction assignment:
+// -> subtraction assignment:
 let e = 5;
 e -= 2;
 console.log(e);
@@ -60,9 +60,9 @@ h **= 2;
 // here we are doing the (raise to the power):
 console.log(h);
 
-// => 2 = Arithematic Operators:(+,-,*,/,%):These operators perform basic arithmetic operations on numerical values:
-// => Basic Arithematic operators:(+,-,*,/,%)
-// -> addition Arithematic operator:
+// => 2 = Arithmetic Operators:(+,-,*,/,%):These operators perform basic arithmetic operations on numerical values:
+// => Basic Arithmetic operators:(+,-,*,/,%)
+// -> addition Arithmetic operator:
 console.log(10 + 2);
 // -> substraction Arithematic operator:
 console.log(10 - 2);
