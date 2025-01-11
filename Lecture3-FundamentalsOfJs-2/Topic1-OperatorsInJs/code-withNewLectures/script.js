@@ -137,7 +137,6 @@ let m = -10;
 console.log(m);
 
 
-
 // => 5 = Exponent:(**):It help us to gave the (raise to the power) value to the (numerical-value):
 // -> exponent or power assignment:
 let n = 5;
