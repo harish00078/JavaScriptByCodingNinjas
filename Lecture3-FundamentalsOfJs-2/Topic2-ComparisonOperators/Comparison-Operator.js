@@ -25,7 +25,7 @@ console.log(5 >= 5);
 
 // V.IMP = other comparison operators:which we only find in the javascript language(===,!==):
 // 1 = (===): strict-equality(comparison)-operator:It compares the values of two operands for equality and returns true if the values are equal and have the same type or same (data-type):
-// IMP = here we use simple (equality) operator:to check (5) with numerical value and ('5') of string:then we gonna get the output as (true):but its not ture:
+// IMP = here we use simple (equality) operator:to check (5) with numerical value and ('5') of string:then we gonna get the output as (true):but its not true:
 console.log(5 == "5");
 // but if we use the (strict) equality operator:then it gonna return us the (false) result:because (strict) operator not only check the (values) it also check there (data-types):
 console.log(5 === "5");
