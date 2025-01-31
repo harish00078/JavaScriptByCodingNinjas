@@ -33,12 +33,13 @@ console.log(b);
 console.log(c);
 
 // => 4 = other Assignment-Operators:which are known as (Augmented) assignment operators:
-// -> IMP-NOTE: Augmented assignment operators are used to assign a value to a variable after performing some operation or operation which we have provided to it: on that variable:
+// -> IMP-NOTE: Augmented assignment operators are used to assign a value to a variable after performing a specified arithmetic or other operation on it.
+// It is basically a shortcut-way of performing an operation and then assigning the result to the variable:
 // -> addition assignment:
 let d = 5;
 d += 2;
 console.log(d);
-// V.V.IMP = all the other augmented assignment type operators works in the same way as (addition) augmented assignment operator:
+// V.V.IMP = all the other augmented assignment type operators works in the same way as (addition) augmented assignment operator:acc to there arithmetic-operation properties:
 // -> subtraction assignment:
 let e = 5;
 e -= 2;
