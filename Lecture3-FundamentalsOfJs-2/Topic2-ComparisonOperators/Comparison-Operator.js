@@ -4,15 +4,17 @@ console.log("Learning About Comparison Operator");
 // => 1 = Comparison-Operator:(>,<,<=,>=,==,!=,===,!==):
 
 // V.IMP = comparison-operators basically compare two values and return a boolean value (true or false) to us  based on there comparison-result:
-
+// -> Basic comparison operators:(>,<,<=,>=,==,!=):
 // V.IMP = we also have two unique comparison operators:that you will only be find in the javascript language(===,!==):
 // -> (===) = strict-equality(comparison)-operator:
 // -> (!==) = strict-inequality(comparison)-operator:
 
 // => here gonna check them one by one:
-// => 1 = (==): Its known as (equality) operator:It compares the values of two operands for equality but without any type conversion. It returns true if the values are equal and have the same type or same (data-type):
+// => 1 = (==): Its known as (equality or equal-to) operator:It compares the values of two operands for equality but without any type conversion. It returns true if the values are equal:
+// it gonna check them on the basis of (values) not on the basis of values (data-type):
 console.log(5 == 5);
-// => 2 = (!=):  Its known as (inequality) operator:It compares the values of two operands for inequality but without any type conversion. It returns true if the values are not equal:
+// => 2 = (!=):  Its known as (inequality or non-equal-to) operator:It compares the values of two operands for inequality but without any type conversion. It returns true if the values are not equal:
+// it gonna check them on the basis of (values) not on the basis of values (data-type):
 console.log('inequality',5!= 6);
 // => 3 = (<): Its known as (less-than) operator:It compares the values of two operands and returns true if the value of the left operand is less than the value of the right operand:
 console.log(5 < 6);
@@ -24,13 +26,13 @@ console.log(5 <= 5);
 console.log(5 >= 5);
 
 // => V.IMP:other comparison operators:which we only find in the javascript language(===,!==):
-// 1 = (===): strict-equality(comparison)-operator:It compares the values of two operands for equality and returns true if the values are equal and have the same type or same (data-type):
+// 1 = (===): strict-equality or equal-to(comparison)-operator:It compares the values of two operands for equality and returns true if the values are equal and have the same type or same (data-type):
 // IMP = here we use simple (equality) operator:to check (5) with numerical value and ('5') of string:then we gonna get the output as (true):but its not true:
 console.log(5 == "5");
 // but if we use the (strict) equality operator:then it gonna return us the (false) result:because (strict) operator not only check the (values) it also check there (data-types):
 console.log(5 === "5");
 
-// 2 = (!==): strict-inequality(comparison)-operator:It compares the values of two operands for inequality and returns true if the values are not equal and have the same type or same (data-type):
+// 2 = (!==): strict-inequality or not-equal-to(comparison)-operator:It compares the values of two operands for inequality and returns true if the values are not equal and have the same type or same (data-type):
 // IMP = same thing happen in the (strict-inequality) operator:
 // -> check for (inequality) operator:
 console.log(5 != "5");
