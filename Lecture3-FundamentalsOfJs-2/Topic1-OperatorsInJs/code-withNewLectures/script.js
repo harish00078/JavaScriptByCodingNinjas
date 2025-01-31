@@ -62,7 +62,8 @@ h **= 2;
 // here we are doing the (raise to the power):
 console.log(h);
 
-// => 2 = Arithmetic Operators:(+,-,*,/,%):These operators perform basic arithmetic operations on numerical values:
+// => 2 = Arithmetic Operators:(+,-,*,/,%):
+// ->These operators perform basic arithmetic operations on numerical values:
 // => Basic Arithmetic operators:(+,-,*,/,%)
 // -> addition Arithmetic operator:
 console.log(10 + 2);
