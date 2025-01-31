@@ -34,7 +34,7 @@ console.log(c);
 
 // => 4 = other Assignment-Operators:which are known as (Augmented) assignment operators:
 // -> IMP-NOTE: Augmented assignment operators are used to assign a value to a variable after performing a specified arithmetic or other operation on it.
-// It is basically a shortcut-way of performing an operation and then assigning the result to the variable:
+// It is basically a shortcut-way or one-step-way of performing an operation and then assigning the result of that operation to the variable:
 // -> addition assignment:
 let d = 5;
 d += 2;
