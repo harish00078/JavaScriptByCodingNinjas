@@ -5,7 +5,7 @@ console.log("Learning About Comparison Operator");
 
 // V.IMP = comparison-operators basically compare two values and return a boolean value (true or false) to us  based on there comparison-result:
 
-// V.IMP = the two of these comparison operators:you will only be find in the javascript language(===,!==):
+// V.IMP = we also have unique comparison operators:that you will only be find in the javascript language(===,!==):
 // -> (===) = strict-equality(comparison)-operator:
 // -> (!==) = strict-inequality(comparison)-operator:
 
