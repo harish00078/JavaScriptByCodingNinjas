@@ -24,8 +24,8 @@ console.log("Learning about Logical Operators");
 // => (first) = here we are using logical operator with the boolean-values:
 // -> (&&) -Logical (AND) operator:
 let grade = 60;
-let scholership = 80;
-let eligible = grade > 60 && scholership > 80;
+let scholarship = 80;
+let eligible = grade > 60 && scholarship > 80;
 console.log(eligible);
 
 // -> (||) -Logical (OR) operator:
