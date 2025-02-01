@@ -17,7 +17,8 @@ console.log("Learning about Logical Operators");
 // -> 2 = (||)-Logical (OR) operator:It is used to check and compare multiple (boolean) values:if one of them is (true) then it will return us the (true) value as result: otherwise it will return us the (false) value as result:it also works differently with the (truthy) and (falsy) values:
 
 // -> 3 = (!)-Logical (NOT) operator:It is used to check and compare one or multiple (boolean) values:if those values are (true) then it will return us the (false) value as result: otherwise it will return us the (true) value as result:it also works differently with the (truthy) and (falsy) values:
-// IMP = as per its same says it represents (not):like this value is not (true) then it will return us the (false) value as result:otherwise it will return us the (true) value as result:
+// IMP = as per its same says it represents (not):The Logical NOT (!) operator is used to reverse or negate a boolean value:
+// -> like: if (a) is (true) then (!a) will be (false) and if (a) is (false) then (!a) will be (true):
 
 // V.IMP = As we have learned that (logical-operator):works differently with (boolean-values) if we compare it with the (truthy) and (falsy) values:
 
