@@ -3,3 +3,5 @@ console.log("Learning More About Logical Operator");
 // V.IMP-NOTE:truthy and falsy values can  also be called as primitive and non-primitive values:and it only happens or works in the js:
 // -> Truthy-values:true,non-empty strings, non-zero numbers, and objects:
 // -> Falsy-values:false, 0, null, undefined, NaN, and "" (empty string):
+
+// => V.IMP-NOTE:It happens because every-value in nodejs:lies under the category of (truthy) and (falsy) values:
