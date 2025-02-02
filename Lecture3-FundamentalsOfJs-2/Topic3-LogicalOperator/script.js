@@ -1,7 +1,9 @@
 // here we gonna be learn about (Logical-Operators):
 console.log("Learning about Logical Operators");
 // => 1 = Logical-Operator:(&&,||,!):these operators basically help to perform logical-operations on multiple boolean-values at once and return the another boolean value as a result to us:In simple-way logical-operators are used for checking and comparing the multiple boolean values:
-// IMP = In more simpler way:when we have to (check) and (compare) more then one (boolean-values) and (conditions) or(statements) which gave us the result in the form of (boolean-value):then we use the (Logical-Operators) in the javascript:
+
+// V.IMP = Mostly these logical-operators are used with (statement-conditions) which gave us the result in the form of (boolean-value):because with the help of it we can check and compare those statement-conditions and get some result logic from them with the help of logical-operators:
+
 // V.IMP = but the more important is that we can also use the (non-boolean) values.which are the (truthy) and (false) values with in the (logical-operators):
 // -> Truthy-values:non-empty strings, non-zero numbers, and objects:
 // -> Falsy-values:false, 0, null, undefined, NaN, and "" (empty string):
