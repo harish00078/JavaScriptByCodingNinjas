@@ -42,4 +42,3 @@ console.log(eligibility);
 let rightToVote = false;
 console.log('Not-Logical-operator',!rightToVote);
 
-// => (second) = here we are using logical operator with the non-boolean-values or we can say the (truthy) and (falsy) values:
