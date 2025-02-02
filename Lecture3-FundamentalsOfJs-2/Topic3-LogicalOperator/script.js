@@ -5,7 +5,7 @@ console.log("Learning about Logical Operators");
 // V.IMP-NOTE = Mostly these logical-operators are used with (statement-conditions) or decision-making scenarios(if,loops and etc):those are basically gonna gave us the result in the form of (boolean-values):because with the help of it we can check and compare those statement-conditions or decision-making scenarios and get some result or logic from them with the help of logical-operators:
 
 // V.IMP = but the more important is that we can also use the (non-boolean) values.which are the (truthy) and (false) values with in the (logical-operators):
-// -> Truthy-values:non-empty strings, non-zero numbers, and objects:
+// -> Truthy-values or primitive and non-primitive values:non-empty strings, non-zero numbers, and objects:
 // -> Falsy-values:false, 0, null, undefined, NaN, and "" (empty string):
 // V.IMP-(NOTE): with boolean-value's (conditions) and (statements) logical-operators work differently as if we compare it to the truthy,falsy (conditions) and (statements) values:
 
