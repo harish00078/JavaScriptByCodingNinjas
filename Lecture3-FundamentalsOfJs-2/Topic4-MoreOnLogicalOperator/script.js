@@ -4,4 +4,8 @@ console.log("Learning More About Logical Operator");
 // -> Truthy-values:true,non-empty strings, non-zero numbers, and objects:
 // -> Falsy-values:false, 0, null, undefined, NaN, and "" (empty string):
 
-// => V.IMP-NOTE:It happens because every-value in nodejs:lies under the category of (truthy) and (falsy) values:
+// => V.IMP-NOTE:We are able to use logical operator with the (truthy) and (falsy) values: because every-value in nodejs lies under the category of (truthy) and (falsy) values:It only happens in the js:
+// -> As per there name-says that:
+// Truthy-value -> Means (true):
+// Falsy-value -> Means (false):
+
