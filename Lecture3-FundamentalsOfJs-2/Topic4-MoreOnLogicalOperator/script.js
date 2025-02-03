@@ -19,15 +19,16 @@ console.log("Learning More About Logical Operator");
 
 // => AND-Operator:
 // -> The && operator evaluates expressions from left to right.
-// -> It returns the first falsy value it encounters or sees.and stop checking further-values:
-// Because in normal boolean-values working:It only returns (true):when all the values are (true):
-// -> If all values are truthy, it returns the last-truthy value.
+// ->(falsy-value): It returns the first falsy value it encounters or sees.and stop checking further-values:
+// Because working with normal boolean-values:It only returns (true):when all the values are (true):
+// ->(truthy-value): here If all values are truthy, it returns the last-truthy value.
 console.log("harish" && "kumar" && 0 && 1);
 
 // => OR-Operator:
 // -> The || operator evaluates expressions from left to right.
 // -> It returns the first truthy value it sees or if its present.and stop checking further-values:
-// -> If all values are falsy, it returns the last-falsy value.
+// Because working with normal boolean-values:It only returns (true):when one of the values are (true):
+// -> here If all values are falsy, it returns the last-falsy value.
 console.log("harish" || "kumar" || 0 || 1);
 
 // => NOT-Operator:
