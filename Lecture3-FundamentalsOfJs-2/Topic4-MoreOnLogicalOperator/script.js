@@ -22,3 +22,16 @@ console.log("Learning More About Logical Operator");
 // -> It returns the first falsy value it encounters.and stop checking further-values:
 // -> If all values are truthy, it returns the last-truthy value.
 console.log("harish" && "kumar" && 0 && 1);
+
+// => OR-Operator:
+// -> The || operator evaluates expressions from left to right.
+// -> It returns the first truthy value it see or if its present.and stop checking further-values:
+// -> If all values are falsy, it returns the last-falsy value.
+console.log("harish" || "kumar" || 0 || 1);
+
+// => NOT-Operator:
+// -> The ! operator returns the opposite of its operand.
+// -> If the operand is truthy, it returns false.
+// -> If the operand is falsy, it returns true.
+console.log(!0);
+console.log(!"harish");
