@@ -19,7 +19,7 @@ console.log("Learning More About Logical Operator");
 
 // => AND-Operator:
 // -> The && operator evaluates expressions from left to right.
-// -> It returns the first falsy value it encounters.and stop checking further-values:
+// -> It returns the first falsy value it encounters or see.and stop checking further-values:
 // -> If all values are truthy, it returns the last-truthy value.
 console.log("harish" && "kumar" && 0 && 1);
 
