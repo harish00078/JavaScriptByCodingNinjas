@@ -16,6 +16,7 @@ console.log("Learning More About Logical Operator");
 // -> (&&) - AND-Operator:
 // -> (||) - OR-Operator:
 // -> (!) - NOT-Operator:
+
 // => AND-Operator:
 // -> The && operator evaluates expressions from left to right.
 // -> It returns the first falsy value it encounters.and stop checking further-values:
