@@ -29,5 +29,6 @@ console.log(m1 + m2 + m3 / 3);
 // expected output: 15
 // but the actual output is: 38.333333333333336
 
-// => IMP-NOTE2:appropriate way of using operators:by using them with the parentheses:
+// => IMP-NOTE2:So instead of learning or remembering the precedence or priority of the operators:we have the simple way to use  operator in appropriate way:
+// IMP: Which is that using operators with the parentheses:and also parentheses are the highest-precedence or priority-operators in the js:
 console.log((m1 + m2 + m3) / 3);
