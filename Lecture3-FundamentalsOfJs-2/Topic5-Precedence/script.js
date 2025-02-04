@@ -24,7 +24,10 @@ let m1 = 20;
 let m2 = 15;   
 let m3 = 10;
 
-// => IMP-NOTE:simple way of using operators:but its not the appropriate way of using operators:
+// => IMP-NOTE1:simple way of using operators:but its not the appropriate way of using operators:
 console.log(m1 + m2 + m3 / 3); 
 // expected output: 15
 // but the actual output is: 38.333333333333336
+
+// => IMP-NOTE2:appropriate way of using operators:by using them with the parentheses:
+console.log((m1 + m2 + m3) / 3);
