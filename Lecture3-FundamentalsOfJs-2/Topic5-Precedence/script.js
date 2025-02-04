@@ -5,16 +5,19 @@ console.log("learning about Precedence in js");
 
 // => precedence refers to the order in which operators are evaluated in an expression. Operators with higher precedence are executed before those with lower precedence.
 // -> Operator Precedence Table (from highest to lowest):
-// Parentheses () → Highest precedence
-// Unary operators !, ++, --
-// Multiplication, Division * / %
-// Bitwise operators & ^ | ~
-// Addition, Subtraction + -
-// Comparison > < >= <=
-// Equality == != === !==
-// Logical AND &&
-// Logical OR ||
-// Assignment = += -= *= etc. → Lowest precedence
+// 1. Parentheses () → Highest precedence
+// 2. Unary operators !, ++, --, ~
+// 3. Multiplication, Division * / %
+// 4. Addition, Subtraction + -
+// 5. Bitwise Shift << >> >>>
+// 6. Comparison > < >= <=
+// 7. Equality == != === !==
+// 8. Bitwise AND &
+// 9. Bitwise XOR ^
+// 10. Bitwise OR |
+// 11. Logical AND &&
+// 12. Logical OR ||
+// 13. Assignment = += -= *= etc. → Lowest precedence
 
 // Example:
 let m1 = 20;
