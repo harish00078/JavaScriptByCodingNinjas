@@ -8,6 +8,7 @@ console.log("learning about Precedence in js");
 // Parentheses () → Highest precedence
 // Unary operators !, ++, --
 // Multiplication, Division * / %
+// Bitwise operators & ^ | ~
 // Addition, Subtraction + -
 // Comparison > < >= <=
 // Equality == != === !==
