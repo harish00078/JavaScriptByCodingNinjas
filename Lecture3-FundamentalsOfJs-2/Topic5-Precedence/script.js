@@ -29,5 +29,5 @@ console.log(m1 + m2 + m3 / 3);
 // but the actual output is: 38.333333333333336
 
 // => IMP-NOTE2:So instead of learning or remembering the precedence or priority of the operators:we have the simple way to use  operator in appropriate way:
-// IMP: Which is basically using the (parentheses):because they have the highest precedence:
+// IMP: Which is basically using the (parentheses) on operator-contexts or expression:because they have the highest precedence:
 console.log((m1 + m2 + m3) / 3);
