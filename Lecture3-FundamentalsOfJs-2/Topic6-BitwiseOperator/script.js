@@ -22,3 +22,4 @@
  * - >>> (Unsigned Right Shift)
  */
 
+// 1. AND (&) Bitwise-Operator:
