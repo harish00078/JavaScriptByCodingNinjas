@@ -6,8 +6,7 @@
  * Key Points:
  * - Operate on 32-bit signed integers
  * - Work with binary representations of numbers
- * -V.IMP: Convert decimal numbers to 32-bit binary internally
- * - Return results back to decimal format
+ * -V.IMP: Convert decimal numbers to 32-bit binary internally and Return results back to decimal format:
  *
  * Bit Representation:
  * - 0 represents false
