@@ -17,7 +17,7 @@
  * - & (AND)
  * - | (OR)
  * - ~ (NOT) = (Tilde)
- * - ^ (XOR)
+ * - ^ (XOR) = (caret)
  * - << (Left Shift)
  * - >> (Right Shift)
  * - >>> (Unsigned Right Shift)
@@ -64,3 +64,5 @@ let i = 5; // 00000000000000000000000000000101
 let j = 3; // 00000000000000000000000000000011
 let k = i ^ j; // 00000000000000000000000000000110
 console.log(k); // 6
+
+// [Bit] 
