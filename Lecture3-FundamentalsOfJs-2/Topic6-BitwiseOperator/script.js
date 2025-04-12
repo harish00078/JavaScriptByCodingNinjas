@@ -23,8 +23,8 @@
  * - >>> (Unsigned Right Shift)
  */
 
-// [ Bitwise AND (&) operator]: compares each bit of two numbers and returns a new bit-number which is going to be the result of the comparison:
-// It compares them acc to the (AND) operator-properties:where each bit is 1 only if both corresponding bits in the input numbers are (1) otherwise, it's (0):
+// [ Bitwise AND (&) operator]: compares each bit of two numbers and returns a new bit-number which is going to be the result of the comparison:with in result we gonna have the (number-form) of that (new) bit-number:
+// It compares them acc to the (AND) operator-properties which we have learned:where each bit is 1 only if both corresponding bits in the input numbers are (1) otherwise, it's (0):
 
 let a = 5; // 00000000000000000000000000000101
 let b = 3; // 00000000000000000000000000000011
