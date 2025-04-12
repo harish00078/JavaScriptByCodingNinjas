@@ -12,6 +12,7 @@
  * - 0 represents false
  * - 1 represents true
  *
+ * 
  * Available Operators:
  * - & (AND)
  * - | (OR)
