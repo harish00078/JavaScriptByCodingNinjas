@@ -15,7 +15,7 @@
  * Available Operators:
  * - & (AND)
  * - | (OR)
- * * - ~ (NOT)
+ * - ~ (NOT)
  * - ^ (XOR)
  * - << (Left Shift)
  * - >> (Right Shift)
