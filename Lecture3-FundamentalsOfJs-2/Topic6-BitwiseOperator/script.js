@@ -16,7 +16,7 @@
  * Available Operators:
  * - & (AND)
  * - | (OR)
- * - ~ (NOT)
+ * - ~ (NOT) = (Tilde)
  * - ^ (XOR)
  * - << (Left Shift)
  * - >> (Right Shift)
@@ -43,4 +43,4 @@ let f = a | b; // 00000000000000000000000000000111
 
 console.log(f); // 7
 
-
+// [Bitwise NOT (~) operator]: 
