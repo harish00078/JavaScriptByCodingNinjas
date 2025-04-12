@@ -47,7 +47,7 @@ console.log(f); // 7
 // Important: The result is the two's complement of the number (inverts bits and adds 1):this (2's complement) term refers to a mathematical method to represent negative numbers in binary.
 
 let g = 5; // 00000000000000000000000000000101
-let h = ~g; // 11111111111111111111111111111010
+let h = ~g;// 11111111111111111111111111111010
 
 console.log(h); // -6
 
