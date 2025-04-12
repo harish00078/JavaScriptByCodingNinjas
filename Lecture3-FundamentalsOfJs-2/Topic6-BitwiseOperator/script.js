@@ -55,3 +55,12 @@ console.log(h); // -6
 // Original number (5):  00000000000000000000000000000101
 // After NOT operation: 11111111111111111111111111111010
 // This represents -6 in two's complement form:
+// IMP-NOTE:Two's complement is how negative values are stored and calculated in binary.It’s not just a programming trick — it’s a mathematical system used in computer hardware:
+
+// [Bitwise XOR (^) operator]: compares each bit of two numbers and returns a new bit-number which is going to be the result of the comparison:
+// It compares them acc to the (XOR) operator-properties:where each bit is (1) if only one of the corresponding bits in the input numbers is (1) otherwise, it's (0):
+// IMP:if both bits are (1) or both are (0):it returns (0):
+let i = 5; // 00000000000000000000000000000101
+let j = 3; // 00000000000000000000000000000011
+let k = i ^ j; // 00000000000000000000000000000110
+console.log(k); // 6
