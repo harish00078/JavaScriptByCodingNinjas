@@ -12,7 +12,7 @@
  * - 0 represents false
  * - 1 represents true
  *
- * 
+ *
  * Available Operators:
  * - & (AND)
  * - | (OR)
@@ -33,7 +33,6 @@ let c = a & b; // 00000000000000000000000000000001
 
 console.log(c); // 1
 
-
 // [Bitwise OR (|) operator]: compares each bit of two numbers and returns a new bit-number which is going to be the result of the comparison:
 // It compares them acc to the (OR) operator-properties:where each bit is (1) if at least one of the corresponding bits in the input numbers is (1) otherwise, it's (0):
 let d = 5; // 00000000000000000000000000000101
@@ -43,4 +42,17 @@ let f = a | b; // 00000000000000000000000000000111
 
 console.log(f); // 7
 
-// [Bitwise NOT (~) operator]: 
+// [Bitwise NOT (~) operator]:
+// The NOT operator inverts all bits of a number, changing 1s to 0s and 0s to 1s.
+// It's also known as the complement operator.
+// Important: The result is the two's complement of the number (inverts bits and adds 1)
+
+let g = 5; // 00000000000000000000000000000101
+let h = ~g; // 11111111111111111111111111111010
+
+console.log(h); // -6
+
+// Explanation:
+// Original number (5):  00000000000000000000000000000101
+// After NOT operation: 11111111111111111111111111111010
+// This represents -6 in two's complement form
