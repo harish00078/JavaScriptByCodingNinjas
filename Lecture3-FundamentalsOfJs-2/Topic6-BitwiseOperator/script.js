@@ -84,3 +84,9 @@ let m = l << 2; // 00000000000000000000000000010100
 console.log(m); // 20
 
 // [Bitwise right shift (>>) operator]:It shifts the bits of a number to the right by a specified-number of positions:shift them acc to the number which provide to the (right-shift) bitwise-operator:
+// IMP:It does not shift the one-bit basically:its gonna shift all the bits acc to the number which be provide to the right-shift operator:same as hte left-shift operator:
+// V.IMP-NOTE:It can also gave us the result in the form of negative-numbers:because when we are shifting the bits of a number to the right, the sign bit is also shifted, resulting in a negative number:
+// because when we shift to right the bit go into the sign bit or we can say to the left most bit:and if shift (1) bit to the sign-bit:then it means we gonna have the negative number:
+let n = 5; // 00000000000000000000000000000101
+let o = n >> 4; // 00000000000000000000000000000001
+console.log(o); // 1
