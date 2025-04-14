@@ -82,3 +82,5 @@ console.log(k); // 6
 let l = 5; // 00000000000000000000000000000101
 let m = l << 2; // 00000000000000000000000000010100
 console.log(m); // 20
+
+// [Bitwise right shift (>>) operator]:It shifts the bits of a number to the right by a specified-number of positions:shift them acc to the number which provide to the (right-shift) bitwise-operator:
