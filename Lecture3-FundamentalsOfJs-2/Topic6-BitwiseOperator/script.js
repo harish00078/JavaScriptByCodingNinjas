@@ -47,7 +47,7 @@ console.log(f); // 7
 // Important: The result is the two's complement of the number (inverts bits and adds 1):this (2's complement) term refers to a mathematical-method to represent negative-numbers in binary.
 
 let g = 5; // 00000000000000000000000000000101
-let h = ~g;// 11111111111111111111111111111010
+let h = ~g; // 11111111111111111111111111111010
 
 console.log(h); // -6
 
@@ -67,6 +67,18 @@ console.log(k); // 6
 
 // [Bitwise Left Shift (<<) operator]:It shifts the bits of a number to the left by a specified-number of positions:
 // IMP:It does not shift the one-bit basically:its gonna shift all the bits acc to the number which be provide to the left-shift operator:
-// it basically multiply the number by (2^number)
+// => Mathematically-explanation:For easy To get answers:
+// For example, shifting left by 2 positions (<<2) is equivalent to multiplying by 2^2=4.
+// So 5<<2 means 5 * (2^2) = 5 * 4 = 20. Each shift left effectively doubles the number.
+// This is why left shift is often used as a fast way to multiply numbers by powers of 2.
+
+// => Shifting Explanation:
+// x << 1 = x * 2
+// x << 2 = x * 2 * 2 = x * 4
+// x << 3 = x * 8
+// => In short, x << n = x * 2^n:
+// 5 << 2 === 5 * 4 === 20
+
 let l = 5; // 00000000000000000000000000000101
 let m = l << 2; // 00000000000000000000000000010100
+console.log(m); // 20
