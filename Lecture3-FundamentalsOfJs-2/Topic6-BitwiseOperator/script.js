@@ -9,8 +9,8 @@
  * - V.IMP: Convert (decimal-numbers) to 32-bit binary internally and Return results back to decimal format:
  *
  * Bit Representation:
- * - 0 represents false
- * - 1 represents true
+ * - 0 represents false: but in bitwise operation its (positive):
+ * - 1 represents (true):but In bitwise operation its (negative):
  *
  *
  * Available Operators:
@@ -89,9 +89,9 @@ console.log(m); // 20
 // For example, when shifting -5 right by 2 positions, the two leftmost 1s (sign bits) are preserved,maintaining the negative value in the result.
 
 // -> Work Negative-Value:
-let n = -5; // 00000000000000000000000000000101
-let o = n >> 2; // 00000000000000000000000000000001
-console.log(o,'O'); // 1
+let n = -5; // 11111111111111111111111111111011 (two's complement of 5)
+let o = n >> 1; // 11111111111111111111111111111101 (preserves sign bit)
+console.log(o,'O'); // -3
 // -> Work Positive-Value:
 let p = 5; // 00000000000000000000000000000101
 let q = p >> 2; // 00000000000000000000000000000001
