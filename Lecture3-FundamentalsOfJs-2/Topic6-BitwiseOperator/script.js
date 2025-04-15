@@ -97,21 +97,25 @@ let p = 5; // 00000000000000000000000000000101
 let q = p >> 2; // 00000000000000000000000000000001
 console.log(q,'Q'); // 1
 
-// [Bitwise unsigned right shift (>>>) operator]:another-names for it are Zero-Fill right shift or logical right shift bitwise-operator:
+// [Bitwise unsigned right shift (>>>) operator]
+// Also known as Zero-Fill right shift or logical right shift
+// Unlike regular right shift (>>), this operator always fills with zeros from the left,regardless of whether the number is positive or negative:
+// IMP-NOTE:It fills up the zeros acc to the number which provide to the (unsigned-right-shift) bitwise-operator:or the numbers of bits we have shifted towards the right:
 
+// Example with Positive Value:
+let r = 5;                    // Binary: 00000000000000000000000000000101
+let s = r >>> 2;             // Binary: 00000000000000000000000000000001
+console.log(s);              // Output: 1 (Same as regular right shift for positive numbers)
 
-// Positive-Value:
-let r = 5; // 00000000000000000000000000000101
-let s = r >>> 2; // 00000000000000000000000000000001
-console.log(s); // 1
-// Negative-Value:
-let t = -8; // 11111111 11111111 11111111 11111000
-let u = t >>> 1; // 01111111 11111111 11111111 11111100
-console.log(u); // 2147483644
+// Example with Negative Value:
+let t = -8;                  // Binary: 11111111111111111111111111111000
+let u = t >>> 1;             // Binary: 01111111111111111111111111111100
+console.log('U => ',u);              // Output: 2147483644
 
-// Because JavaScript treats it as an unsigned 32-bit number.
-
-// -8 in binary: 11111111 11111111 11111111 11111000
-
-// >>> 1 becomes: 01111111 11111111 11111111 11111100 → 2147483644
+// Explanation of negative number behavior:
+// - With regular right shift (>>), the sign bit (leftmost 1) would be preserved:
+// - With unsigned right shift (>>>), the sign bit is not preserved:
+// - Instead, zeros are filled from the left
+// - This is why we get a large positive number (2147483644) instead of a negative number:
+// - The result is always treated as an unsigned 32-bit integer:
 
