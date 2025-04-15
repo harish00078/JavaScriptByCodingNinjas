@@ -9,8 +9,8 @@
  * - V.IMP: Convert (decimal-numbers) to 32-bit binary internally and Return results back to decimal format:
  *
  * Bit Representation:
- * - 0 represents false: but in bitwise operation its (positive):
- * - 1 represents (true):but In bitwise operation its (negative):
+ * - 0 represents false: but in bitwise operation its (positive-sign):
+ * - 1 represents (true):but In bitwise operation its (negative-sign):
  *
  *
  * Available Operators:
