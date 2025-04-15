@@ -96,3 +96,22 @@ console.log(o,'O'); // 1
 let p = 5; // 00000000000000000000000000000101
 let q = p >> 2; // 00000000000000000000000000000001
 console.log(q,'Q'); // 1
+
+// [Bitwise unsigned right shift (>>>) operator]:another-names for it are Zero-Fill right shift or logical right shift bitwise-operator:
+
+
+// Positive-Value:
+let r = 5; // 00000000000000000000000000000101
+let s = r >>> 2; // 00000000000000000000000000000001
+console.log(s); // 1
+// Negative-Value:
+let t = -8; // 11111111 11111111 11111111 11111000
+let u = t >>> 1; // 01111111 11111111 11111111 11111100
+console.log(u); // 2147483644
+
+// Because JavaScript treats it as an unsigned 32-bit number.
+
+// -8 in binary: 11111111 11111111 11111111 11111000
+
+// >>> 1 becomes: 01111111 11111111 11111111 11111100 → 2147483644
+
