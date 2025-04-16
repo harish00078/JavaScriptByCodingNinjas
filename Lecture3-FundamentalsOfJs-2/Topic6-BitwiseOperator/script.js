@@ -79,9 +79,14 @@ console.log(k); // 6
 // => In short, x << n = x * 2^n:
 // 5 << 2 === 5 * 4 === 20
 
+// Work With Positive-Value:
 let l = 5; // 00000000000000000000000000000101
 let m = l << 2; // 00000000000000000000000000010100
 console.log(m); // 20
+// Work With Negative-Value:
+let N = -5; // 11111111111111111111111111111011 (two's complement of 5)
+let O = n << 1; // 11111111111111111111111111111101 (preserves sign bit)
+console.log(O,'O'); // -10
 
 // [Bitwise right shift (>>) operator]:It shifts the bits of a number to the right by a specified-number of positions:shift them acc to the number which provide to the (right-shift) bitwise-operator:
 // IMP:It does not shift the one-bit basically:its gonna shift all the bits acc to the number which be provide to the right-shift operator:same as hte left-shift operator:
