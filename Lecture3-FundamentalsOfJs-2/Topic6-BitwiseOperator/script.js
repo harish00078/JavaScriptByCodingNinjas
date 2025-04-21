@@ -51,7 +51,7 @@ console.log('khk', khk);
 // It's also known as the complement-operator: because in some of the languages (~) symbol or (bitwise not operator) is called the (complement-operator), because it inverts or changes all the bits of a number:
 // complement-operator:The complement operator basically means "opposite" or "everything that's not this."Its meaning depends a little bit on where you're using it:
 // Important: The result is in two's complement form because the bitwise NOT operator changes the sign bit.
-// -> Two's complement is a mathematical method used to represent negative numbers in binary format.
+// -> Two's complement is a mathematical method used to represent or store negative numbers in binary format.
 // -> When the NOT operator inverts all bits, it effectively converts positive numbers to negative and vice versa.
 
 let g = 5; // 00000000000000000000000000000101
