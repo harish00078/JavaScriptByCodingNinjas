@@ -42,6 +42,11 @@ let f = a | b; // 00000000000000000000000000000111
 
 console.log(f); // 7
 
+let hk = -5;
+let kh = 3;
+let khk = hk | kh;
+console.log('khk', khk);
+
 // [Bitwise NOT (~) operator]:It works in same way as properties of the (NOT) operator:but instead changing (true) to (false):It basically inverts or change all bits of a number, changing 1s to 0s and 0s to 1s.
 // It's also known as the complement-operator: because in some of the languages (~) symbol or (bitwise not operator) is called the (complement-operator), because it inverts or changes all the bits of a number:
 // complement-operator:The complement operator basically means "opposite" or "everything that's not this."Its meaning depends a little bit on where you're using it:
