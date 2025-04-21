@@ -50,7 +50,9 @@ console.log('khk', khk);
 // [Bitwise NOT (~) operator]:It works in same way as properties of the (NOT) operator:but instead changing (true) to (false):It basically inverts or change all bits of a number, changing 1s to 0s and 0s to 1s.
 // It's also known as the complement-operator: because in some of the languages (~) symbol or (bitwise not operator) is called the (complement-operator), because it inverts or changes all the bits of a number:
 // complement-operator:The complement operator basically means "opposite" or "everything that's not this."Its meaning depends a little bit on where you're using it:
-// Important: The result is the two's complement of the number (inverts bits and adds 1):this (2's complement) term refers to a mathematical-method to represent negative-numbers in binary.
+// Important: The result is in two's complement form because the bitwise NOT operator changes the sign bit.
+// -> Two's complement is a mathematical method used to represent negative numbers in binary format.
+// -> When the NOT operator inverts all bits, it effectively converts positive numbers to negative and vice versa.
 
 let g = 5; // 00000000000000000000000000000101
 let h = ~g; // 11111111111111111111111111111010
