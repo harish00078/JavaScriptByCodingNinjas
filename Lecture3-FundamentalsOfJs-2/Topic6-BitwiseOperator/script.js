@@ -73,7 +73,7 @@ let j = 3; // 00000000000000000000000000000011
 let k = i ^ j; // 00000000000000000000000000000110
 console.log(k); // 6
 
-// [Bitwise Left Shift (<<) operator]:It shifts the bits of a number to the left by a specified-number of positions:
+// [Bitwise Left Shift (<<) operator]:It shifts the bits of a number to the left by a specified-number of positions:which we have given to it:
 // IMP:It does not shift the one-bit basically:its gonna shift all the bits acc to the number which be provide to the left-shift operator:
 // => Mathematically-explanation:For easy To get answers:
 // For example, shifting left by 2 positions (<<2) is equivalent to multiplying by 2^2=4.
