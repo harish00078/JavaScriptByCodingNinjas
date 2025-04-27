@@ -98,7 +98,7 @@ console.log(O,'O'); // -10
 
 // [Bitwise right shift (>>) operator]:It shifts the bits of a number to the right by a specified-number of positions:shift them acc to the number which provide to the (right-shift) bitwise-operator:
 // IMP:It does not shift the one-bit basically:its gonna shift all the bits acc to the number which be provide to the right-shift operator:same as hte left-shift operator:
-// IMPORTANT NOTE: When performing right shift operations on negative numbers, the sign bit (leftmost bit) is preserved and copied into the positions that are vacated during the shift. This means the result remains negative. This is called arithmetic right shift, which preserves the sign of the number.
+// IMPORTANT NOTE: When performing right shift operations on negative numbers, the sign bit (leftmost bit) is preserved and copied into the positions that are vacated during the shift. This means when we shift a bit of negative towards right then the result remains negative. This is called arithmetic right shift, which preserves the sign of the number.it because of the mathematical calculations involved in this operation:
 // For example, when shifting -5 right by 2 positions, the two leftmost 1s (sign bits) are preserved,maintaining the negative value in the result.
 
 // -> Work Negative-Value:
