@@ -93,7 +93,7 @@ let m = l << 2; // 00000000000000000000000000010100
 console.log(m); // 20
 // Work With Negative-Value:
 let N = -5; // 11111111111111111111111111111011 (two's complement of 5)
-let O = n << 1; // 11111111111111111111111111111101 (preserves sign bit)
+let O = N << 1; // 11111111111111111111111111111101 (preserves sign bit)
 console.log(O,'O'); // -10
 
 // [Bitwise right shift (>>) operator]:It shifts the bits of a number to the right by a specified-number of positions:shift them acc to the number which provide to the (right-shift) bitwise-operator:
