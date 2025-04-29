@@ -13,7 +13,7 @@ let num = "5" + 5;
 console.log(num);
 console.log(typeof num);
 // => 3 = we can also use the (two) and more string-values with the  arithmetic-operators:
-// V.V.IMP = when we use the (add) arithmetic-operator:on multiple string-vlaues.then we will get the result in the form of (string) data-type:
+// V.V.IMP = when we use the (add) arithmetic-operator:on multiple string-values.then we will get the result in the form of (string) data-type:
 let fullName = "harish" +" "+"kumar";
 console.log(fullName);
 console.log(typeof fullName);
