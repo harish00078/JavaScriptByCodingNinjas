@@ -111,7 +111,7 @@ let q = p >> 2; // 00000000000000000000000000000001
 console.log(q,'Q'); // 1
 
 // [Bitwise unsigned right shift (>>>) operator]
-// Also known as Zero-Fill right shift or logical right shift
+// Also known as Zero-Fill right shift or logical right shift operator:
 // Unlike regular right shift (>>), this operator always fills with zeros from the left,regardless of whether the number is positive or negative:
 // IMP-NOTE:It fills up the zeros acc to the number which provide to the (unsigned-right-shift) bitwise-operator:or the numbers of bits we have shifted towards the right:
 // - Instead, zeros are filled from the left:This is why we get a large positive number (2147483644) instead of a negative number:because the negative-number are stored in form of two's complement format:
