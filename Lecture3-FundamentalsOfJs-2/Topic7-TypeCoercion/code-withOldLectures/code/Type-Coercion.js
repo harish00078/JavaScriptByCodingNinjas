@@ -1,30 +1,33 @@
 console.log("learning about type-coercion");
-// Type-Coercion:
-// IMP = here we will see that how the (arithmetic-operators).work with the (strings) in the javascript:
 
-// => 1 = first we use the (add) arithmetic-operator on both the number:
-console.log(5 + 5);
-// => 2 = second we use (add) arithmetic-operator on two things:
-// first is the string-value:
-// second is the number-value:
-// IMP = when we try to add them both.then it will provide us result in the form of that two-things combination:not in the form of two-values (addition):
-// V.V.IMP = and also its in the form of (string):whenever we try to use the (add) arithmetic-operators with (string) and (number) values:then we will have the result in the form of (string) data-type:
-let num = "5" + 5;
+// Type Coercion with Arithmetic Operators
+// Demonstrates how JavaScript handles operations between different data types
+
+// 1. Addition with numbers
+console.log(5 + 5); // Output: 10 (number)
+
+// 2. Addition with string and number
+// When adding a string and number, JavaScript converts the number to a string
+// and performs string concatenation or combination instead of numeric addition
+let num = "5" + 5; // "55" (string concatenation)
 console.log(num);
-console.log(typeof num);
-// => 3 = we can also use the (two) and more string-values with the  arithmetic-operators:
-// V.V.IMP = when we use the (add) arithmetic-operator:on multiple string-values.then we will get the result in the form of (string) data-type:
-let fullName = "harish" +" "+"kumar";
-console.log(fullName);
-console.log(typeof fullName);
+console.log(typeof num); // "string"
 
-// V.IMP = here we see that:how the (subtraction) arithmetic-operator:work with the one (string) and (number) value:
-// V.V.IMP = we will have the result in the form of (number) data-type:and also the result-value is in the form of subtraction-value not in the form of  combination  that we have seen in the addition arithmetic-operator:
-let subtraction = '55' - 10;
-console.log(subtraction);
-console.log(typeof(subtraction));
+// 3. String concatenation with multiple strings
+// The + operator concatenates multiple strings together
+let fullName = "harish" + " " + "kumar"; // String concatenation
+console.log(fullName); // "harish kumar"
+console.log(typeof fullName); // "string"
 
-// IMP = same thing will happen to the other arithmetic-operators:which has happened to the subtraction arithmetic-operator with the string-values:
-let multiple = '55'*10;
-console.log(multiple);
-console.log(typeof multiple);
+// 4. Subtraction with string and number
+// For subtraction, JavaScript attempts to convert strings to numbers
+// Unlike addition, subtraction always tries to perform numeric operation
+let subtraction = '55' - 10; // JavaScript converts '55' to number 55
+console.log(subtraction); // 45 (numeric subtraction)
+console.log(typeof(subtraction)); // "number"
+
+// 5. Other arithmetic operators (multiplication)
+// Similar to subtraction, other arithmetic operators attempt numeric conversion
+let multiple = '55' * 10; // JavaScript converts '55' to number 55
+console.log(multiple); // 550 (numeric multiplication)
+console.log(typeof multiple); // "number"
