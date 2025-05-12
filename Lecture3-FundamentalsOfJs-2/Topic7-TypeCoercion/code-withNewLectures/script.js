@@ -1,2 +1,5 @@
 console.log('learning about type-coercion:  ');
 // Type-Coercion:type-coercion is the process of changing the type of a value from one data-type to another:It basically occurs when javascript automatically converts a value of one data-type to another during an operation:
+
+// Understand it through arithmetic-operations:
+// 
