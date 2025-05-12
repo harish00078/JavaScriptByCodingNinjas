@@ -4,3 +4,7 @@ console.log('learning about type-coercion:  ');
 // => Understand it through arithmetic-operations:
 // Type-Coercion acts differently acc to operations:
 // IMP-NOTE:In arithmetic-operations:if we use (addition) operator or operation then type-coercion it work or behaves differently rather than other arithmetic-operators or operations (subtraction,multiplication,division,modulus,++,--) etc:
+
+// -> 1 = Addition:if we use addition operator on one number and string value:then the number value's data-type gonna get converted into the form of string instead of string get converted into the form of number:
+// V.IMP-NOTE:And because that's why we are getting the result in the form of string:and they also get combined in the result instead of numeric-addition:
+console.log(5 + "5");
