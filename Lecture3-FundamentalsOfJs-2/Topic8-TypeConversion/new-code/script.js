@@ -11,8 +11,8 @@ console.log("Learn about: type-conversion");
 // IMP-NOTE: both are used for type conversion to string in JavaScript, but String() can convert any data type to a string while toString() cannot convert null and undefined values to a string.
 let num = 123;
 // -> using (String) function:
-console.log(String(num));
+console.log(typeof (String(num)));
 // -> using (toString) method:
-console.log(num.toString());
+console.log(typeof (num.toString()));
 
 // => 2: Converting to Number:
