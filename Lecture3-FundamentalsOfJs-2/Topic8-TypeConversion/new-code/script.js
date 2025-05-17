@@ -5,7 +5,7 @@ console.log("Learn about: type-conversion");
 // Several methods are available to convert values between different data types.
 
 // => 1: Converting to String:
-// we have to multiple-ways to do it:
+// we have multiple-ways to do it:
 // -> 1 = first is (String()) function:
 // -> 2 = second is (toString()) method:
 // IMP-NOTE: both are used for type conversion to string in JavaScript, but String() can convert any data type to a string while toString() cannot convert null and undefined values to a string.
@@ -16,3 +16,4 @@ console.log(typeof (String(num)));
 console.log(typeof (num.toString()));
 
 // => 2: Converting to Number:
+// we have multiple-ways to do it:
