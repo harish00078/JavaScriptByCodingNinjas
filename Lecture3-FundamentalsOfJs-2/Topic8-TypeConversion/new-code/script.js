@@ -14,3 +14,5 @@ let num = 123;
 console.log(String(num));
 // -> using (toString) method:
 console.log(num.toString());
+
+// => 2: Converting to Number:
