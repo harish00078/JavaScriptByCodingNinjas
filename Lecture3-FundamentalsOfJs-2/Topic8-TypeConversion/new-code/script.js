@@ -29,6 +29,12 @@ console.log(typeof (Number(num2)));
 // -> using (Unary (+) plus or addition-operator):
 console.log(+num2);
 console.log(typeof (+num2));
+// -> using (parseInt) function:
+console.log(parseInt(num2));    
+console.log(typeof(parseInt(num2)));
+// -> using (parseFloat) function:
+console.log(parseFloat(num2));
+console.log(typeof(parseFloat(num2)));
 
 
 
