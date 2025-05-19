@@ -22,9 +22,13 @@ console.log(typeof (num1.toString()));
 // -> 3 = third is (parseInt()) function:
 // -> 4 = fourth is (parseFloat()) function:
 let num2 = "123";
+
 // -> using (Number) function:
 console.log(Number(num2));
 console.log(typeof (Number(num2)));
+// -> using (Unary (+) plus or addition-operator):
+console.log(+num2);
+console.log(typeof (+num2));
 
 
 
