@@ -36,6 +36,16 @@ console.log(typeof parseInt(num2));
 console.log(parseFloat(num2));
 console.log(typeof parseFloat(num2));
 
+// => 3: Converting to Boolean:
+// we have multiple-ways to do it:
+// -> 1 = first is (Boolean()) function:
+// -> 2 = second is (Unary (!) not-operator):
+
+
+
+
+
+
 // IMP-NOTES:
 // => Notes on Converting to string:
 // IMP: String() and toString() are used for type conversion to string in JavaScript, but String() can convert any data type to a string while toString() cannot convert null and undefined values to a string:
