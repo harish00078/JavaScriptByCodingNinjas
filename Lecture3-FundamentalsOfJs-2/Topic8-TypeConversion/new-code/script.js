@@ -45,7 +45,8 @@ console.log(typeof(parseFloat(num2)));
 // => Notes on Converting to number:
 
 // IMP-NOTES:about Number-method:
-// -> 1: Convert (simple-string) or (non-number-string) to number:
+
+// -> 1: Convert (simple-string) or (non-number-string) to number:with the help of (Number) function:
 // IMP = instead of number-string if we only have the string:then what will be the answer of that string.if try to convert it into the number through (Number) method:
 // IMP = then in result we will have the (NaN):NaN is basically used to represents the (Not a number)  value in js:
 // console.log(Number("value"));
