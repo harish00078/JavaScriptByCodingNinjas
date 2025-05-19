@@ -24,6 +24,7 @@ console.log(typeof (num.toString()));
 
 
 // IMP-NOTES:
+// => Notes on Converting to String:
 // -> 1: Convert (simple-string) or (non-number-string) to number:
 // IMP = instead of number-string if we only have the string:then what will be the answer of that string.if try to convert it into the number through (Number) method:
 // IMP = then in result we will have the (NaN):NaN is basically used to represents the (Not a number)  value in js:
