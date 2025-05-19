@@ -69,4 +69,9 @@ console.log(parseInt("f12345"));
 console.log(parseFloat("123.45f"));
 console.log(parseFloat("f123.45"));
 
+// => Notes on Converting to Boolean:
+
+
+
+
 // NOTE: every (integer) or (floating-point) value is considered as (number) or (number) data-type in javascript:
