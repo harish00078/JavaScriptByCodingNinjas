@@ -43,11 +43,17 @@ console.log(typeof(parseFloat(num2)));
 // IMP: String() and toString() are used for type conversion to string in JavaScript, but String() can convert any data type to a string while toString() cannot convert null and undefined values to a string:
 
 // => Notes on Converting to number:
+
+// IMP-NOTES:about Number-method:
 // -> 1: Convert (simple-string) or (non-number-string) to number:
 // IMP = instead of number-string if we only have the string:then what will be the answer of that string.if try to convert it into the number through (Number) method:
 // IMP = then in result we will have the (NaN):NaN is basically used to represents the (Not a number)  value in js:
 // console.log(Number("value"));
 // -> 2: convert boolean-value to number:
-// IMP = here in result we will have the (1):because in bitwise system (1) represents the (true) value and (0) represents the (false) value:
+// IMP = if we use (Number) function on boolean values:then in result we will have the (1):because in bitwise system (1) represents the (true) value and (0) represents the (false) value:
 // console.log(Number(true));
+
+// IMP-NOTES:about Unary (+) plus or addition-operator:
+
+
 // -> 3: every (integer) or (floating-point) value is considered as (number) or (number) data-type in javascript:
