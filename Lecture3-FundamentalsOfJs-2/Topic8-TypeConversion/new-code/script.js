@@ -33,16 +33,19 @@ console.log(typeof +num2);
 console.log(parseInt(num2));
 console.log(typeof parseInt(num2));
 // -> using (parseFloat) function:
-console.log(parseFloat(num2));
-console.log(typeof parseFloat(num2));
+let float = '23.45';
+console.log(parseFloat(float));
+console.log(typeof parseFloat(float));
 
 // => 3: Converting to Boolean:
 // we have multiple-ways to do it:
 // -> 1 = first is (Boolean()) function:
 // -> 2 = second is ( (!) Unary or not-operator):
 
-
+let num3 = 123;
 // -> using (Boolean) function:
+console.log("Boolean-conversion:", Boolean(num3));
+console.log(typeof Boolean(num3));
 
 
 
