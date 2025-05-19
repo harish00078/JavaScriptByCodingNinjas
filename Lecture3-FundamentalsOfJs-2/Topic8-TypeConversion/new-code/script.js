@@ -54,6 +54,7 @@ console.log(typeof(parseFloat(num2)));
 // console.log(Number(true));
 
 // IMP-NOTES:about Unary (+) plus or addition-operator:
+// In javascript,the Unary (+) plus or addition-operator can be used to convert a value to a number. When used before a value, it attempts to convert the value to a number data-type.
 
 
 // -> 3: every (integer) or (floating-point) value is considered as (number) or (number) data-type in javascript:
