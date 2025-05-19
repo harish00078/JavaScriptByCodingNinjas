@@ -39,9 +39,10 @@ console.log(typeof parseFloat(num2));
 // => 3: Converting to Boolean:
 // we have multiple-ways to do it:
 // -> 1 = first is (Boolean()) function:
-// -> 2 = second is (Unary (!) not-operator):
+// -> 2 = second is ( (!) Unary or not-operator):
 
 
+// -> using (Boolean) function:
 
 
 
