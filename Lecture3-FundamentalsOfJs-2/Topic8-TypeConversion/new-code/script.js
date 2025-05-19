@@ -9,11 +9,11 @@ console.log("Learn about: type-conversion");
 // -> 1 = first is (String()) function:
 // -> 2 = second is (toString()) method:
 // IMP-NOTE: both are used for type conversion to string in JavaScript, but String() can convert any data type to a string while toString() cannot convert null and undefined values to a string.
-let num = 123;
+let num1 = 123;
 // -> using (String) function:
-console.log(typeof (String(num)));
+console.log(typeof (String(num1)));
 // -> using (toString) method:
-console.log(typeof (num.toString()));
+console.log(typeof (num1.toString()));
 
 // => 2: Converting to Number:
 // we have multiple-ways to do it:
@@ -21,6 +21,11 @@ console.log(typeof (num.toString()));
 // -> 2 = second is (Unary (+) plus or addition-operator):
 // -> 3 = third is (parseInt()) function:
 // -> 4 = fourth is (parseFloat()) function:
+let num2 = "123";
+// -> using (Number) function:
+console.log(Number(num2));
+console.log(typeof (Number(num2)));
+
 
 
 // IMP-NOTES:
@@ -28,8 +33,8 @@ console.log(typeof (num.toString()));
 // -> 1: Convert (simple-string) or (non-number-string) to number:
 // IMP = instead of number-string if we only have the string:then what will be the answer of that string.if try to convert it into the number through (Number) method:
 // IMP = then in result we will have the (NaN):NaN is basically used to represents the (Not a number)  value in js:
-console.log(Number("value"));
+// console.log(Number("value"));
 // -> 2: convert boolean-value to number:
 // IMP = here in result we will have the (1):because in bitwise system (1) represents the (true) value and (0) represents the (false) value:
-console.log(Number(true));
+// console.log(Number(true));
 // -> 3: every (integer) or (floating-point) value is considered as (number) or (number) data-type in javascript:
