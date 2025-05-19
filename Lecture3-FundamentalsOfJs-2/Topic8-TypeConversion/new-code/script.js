@@ -11,9 +11,9 @@ console.log("Learn about: type-conversion");
 
 let num1 = 123;
 // -> using (String) function:
-console.log(typeof (String(num1)));
+console.log(typeof String(num1));
 // -> using (toString) method:
-console.log(typeof (num1.toString()));
+console.log(typeof num1.toString());
 
 // => 2: Converting to Number:
 // we have multiple-ways to do it:
@@ -25,18 +25,16 @@ let num2 = "123";
 
 // -> using (Number) function:
 console.log(Number(num2));
-console.log(typeof (Number(num2)));
+console.log(typeof Number(num2));
 // -> using (Unary (+) plus or addition-operator):
 console.log(+num2);
-console.log(typeof (+num2));
+console.log(typeof +num2);
 // -> using (parseInt) function:
-console.log(parseInt(num2));    
-console.log(typeof(parseInt(num2)));
+console.log(parseInt(num2));
+console.log(typeof parseInt(num2));
 // -> using (parseFloat) function:
 console.log(parseFloat(num2));
-console.log(typeof(parseFloat(num2)));
-
-
+console.log(typeof parseFloat(num2));
 
 // IMP-NOTES:
 // => Notes on Converting to string:
@@ -64,5 +62,11 @@ console.log(parseInt("12345f"));
 // then we will have the same result as (number) method for the (simple-string) value:and that is (NaN):
 console.log(parseInt("f12345"));
 
+// IMP-NOTES:about parseFloat() function:
 
-// NOTES: every (integer) or (floating-point) value is considered as (number) or (number) data-type in javascript:
+// -> IMP = same-thing will happen here in (parsefloat) as (parseInt) for all the conversions:
+// only difference is that here we use the floating-point number:
+console.log(parseFloat("123.45f"));
+console.log(parseFloat("f123.45"));
+
+// NOTE: every (integer) or (floating-point) value is considered as (number) or (number) data-type in javascript:
