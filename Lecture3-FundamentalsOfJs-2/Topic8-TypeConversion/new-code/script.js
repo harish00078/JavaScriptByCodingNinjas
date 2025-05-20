@@ -40,12 +40,26 @@ console.log(typeof parseFloat(float));
 // => 3: Converting to Boolean:
 // we have multiple-ways to do it:
 // -> 1 = first is (Boolean()) function:
-// -> 2 = second is ( (!) Unary or not-operator):
+// -> 2 = second is ( (!!) Unary-not-operator):
+// V.IMP-NOTE:To represent unary operators in JavaScript, we use double exclamation marks (!!):the single exclamation mark (!) is know as (logical-not-operator):
 
 let num3 = 123;
+let str1 = "";
 // -> using (Boolean) function:
+// -> conversion of truthy-values by using (Boolean) function:
 console.log("Boolean-conversion:", Boolean(num3));
 console.log(typeof Boolean(num3));
+// -> conversion of falsy-values by using (Boolean) function:
+console.log("Boolean-conversion:", Boolean(str1));  
+console.log(typeof Boolean(str1));
+
+// -> using (Unary (!) not-operator):
+// -> conversion of truthy-values by using (Unary (!) not-operator):
+console.log("Boolean-conversion:", !!num3);
+console.log(typeof !num3);
+// -> conversion of falsy-values by using (Unary (!) not-operator):
+console.log("Boolean-conversion:", !!str1);
+console.log(typeof !str1);
 
 
 
