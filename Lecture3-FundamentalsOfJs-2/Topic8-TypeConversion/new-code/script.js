@@ -72,7 +72,7 @@ console.log(typeof !str1);
 
 // IMP-NOTES:about Number-method:
 // -> 1: Convert (simple-string) or (non-number-string) to number:
-// IMP = instead of number-string if we only have the string:then what will be the answer of that string.if try to convert it into the number through (Number) method:
+// IMP = instead of number-string if we only have the simple-string-value:then what will be the answer of that string.if we try to convert it into the number through (Number) method:
 // IMP = then in result we will have the (NaN):NaN is basically used to represents the (Not a number)  value in js:
 // console.log(Number("value"));
 // -> 2: convert boolean-value to number:
