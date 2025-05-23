@@ -84,7 +84,7 @@ console.log(typeof !str1);
 
 // IMP-NOTES:about parseInt() function:
 // -> IMP = parseInt-method is different from the (number) method:because the number-method is not able to convert the string with number and character values into the number:it will gave us the result in (NaN) value:
-// => 1 = parseInt-method:basically provide the result of string-value in number-value:only even if we have the (character-values) after the (number-values):
+// => 1 = parseInt-method:basically provide the result of string-value in number-value:only even if we have the (string-character-values) after the (number-values):
 console.log(parseInt("12345f"));
 // => 2 = if we have the character-values:before the (number-value) in the string:
 // then we will have the same result as (number) method for the (simple-string) value:and that is (NaN):
