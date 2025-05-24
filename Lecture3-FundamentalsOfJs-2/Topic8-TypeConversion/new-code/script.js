@@ -83,7 +83,7 @@ console.log(typeof !str1);
 // In javascript,the Unary (+) plus or addition-operator can be used to convert a value to a number. When used before a value, it attempts to convert the value to a number data-type.
 
 // IMP-NOTES:about parseInt() function:
-// -> IMP = parseInt-method is different from the (number) method:because the number-method is not able to convert the string with number and character values into the number:it will gave us the result in (NaN) value:
+// -> IMP = parseInt-method is different from the (number) method:because the number-method is not able to convert the number with character string-value:it will gave us the result in (NaN) value:
 // => 1 = parseInt-method:basically provide the result of string-value in number-value:only even if we have the (string-character-values) after the (number-values):
 console.log(parseInt("12345f"));
 // => 2 = if we have the character-values:before the (number-value) in the string:
