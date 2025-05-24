@@ -53,7 +53,7 @@ console.log(typeof Boolean(num3));
 console.log("Boolean-conversion:", Boolean(str1));  
 console.log(typeof Boolean(str1));
 
-// -> using (Unary (!) not-operator):
+// -> using (Unary (!!) not-operator):
 // -> conversion of truthy-values by using (Unary (!) not-operator):
 console.log("Boolean-conversion:", !!num3);
 console.log(typeof !num3);
