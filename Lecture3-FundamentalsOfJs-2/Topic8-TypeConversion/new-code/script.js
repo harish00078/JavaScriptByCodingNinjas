@@ -98,7 +98,7 @@ console.log(parseFloat("123.45f"));
 console.log(parseFloat("f123.45"));
 
 // => Notes on Converting to Boolean:
-// V.IMP-NOTE:To represent unary operators in JavaScript, we use double exclamation marks (!!):the single exclamation mark (!) is know as (logical-not-operator):
+// V.IMP-NOTE:To represent unary NOT-operators in JavaScript, we use double exclamation marks (!!):the single exclamation mark (!) is know as (logical-not-operator):
 // Note: that any value that is "falsy" (such as 0, "", null, undefined, and NaN) will convert to false when converted to a boolean, while any other value will convert to true.
 
 
