@@ -104,4 +104,4 @@ console.log(parseFloat("f123.45"));
 
 
 
-// NOTE: every (integer) or (floating-point) value is considered as (number) or (number) data-type in javascript:
+// NOTE: every (integer-(positive,negative and zero-number)) or (floating-point) value is considered as (number) or (number) data-type in javascript:
