@@ -41,7 +41,7 @@ console.log(typeof parseFloat(float));
 // we have multiple-ways to do it:
 // -> 1 = first is (Boolean()) function:
 // -> 2 = second is ( (!!) Unary-not-operator):
-// V.IMP-NOTE:To represent unary operators in JavaScript, we use double exclamation marks (!!):the single exclamation mark (!) is know as (logical-not-operator):
+// V.IMP-NOTE:To represent unary-NOT-operators in JavaScript, we use double exclamation marks (!!):the single exclamation mark (!) is know as (logical-not-operator):
 
 let num3 = 123;
 let str1 = "";
